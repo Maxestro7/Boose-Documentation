@@ -121,11 +121,6 @@ Validates two integer parameters (width and height) and instructs the canvas to 
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Booze_Project.ApplicationConfiguration.html">ApplicationConfiguration</a></dt>
-      <dd><p>Bootstrap the application configuration.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="Booze_Project.Booze_UI.html">Booze_UI</a></dt>
       <dd><p>Main Windows Forms UI for the BOOSE application.
 Hosts the drawing canvas, the command factory, parser and stored program,
@@ -138,12 +133,12 @@ and exposes event handlers for user interaction (run, reset, paint, etc.).</p>
 Provides drawing primitives backed by a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> and a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> object.
 The canvas stores a pen position (Xpos, Ypos) which many commands use as the current drawing origin.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Booze_Project.Program.html">Program</a></dt>
-      <dd></dd>
-    </dl>
-
+ <dl class="jumplist">
+      <dt><a class="xref" href="Booze_Testing.BooseTesting.html">IAPPCanvas</a></dt>
+      <dd><p>Unit tests for the application canvas implementation <see cref="IAPPCanvas"/>.
+             Verifies basic drawing operations update the internal pen position as expected.
+       </p>
+</dd>
 
 </article>
 

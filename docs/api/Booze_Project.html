@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Namespace Booze_Project </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Namespace Booze_Project ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Booze_Project">
+
+  <h1 id="Booze_Project" data-uid="Booze_Project" class="text-break">Namespace Booze_Project</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">
+Classes
+</h3>
+      <h4><a class="xref" href="Booze_Project.AppBool.html">AppBool</a></h4>
+      <section><p>Represents a boolean evaluation value in the application.
+Inherits evaluation behavior from <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> and exposes a boolean view of the stored numeric value.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCanvas.html">AppCanvas</a></h4>
+      <section><p>Concrete application implementation of the <span class="xref">BOOSE.ICanvas</span> interface.
+Provides simple drawing primitives backed by an in-memory <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> and a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a> surface.
+The canvas maintains a current pen position (<a class="xref" href="Booze_Project.AppCanvas.html#Booze_Project_AppCanvas_Xpos">Xpos</a>, <a class="xref" href="Booze_Project.AppCanvas.html#Booze_Project_AppCanvas_Ypos">Ypos</a>) used as the origin for many drawing operations.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCanvasCommand.html">AppCanvasCommand</a></h4>
+      <section><p>Base class for application commands that operate on a drawing canvas.
+Inherits from <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a> and exposes a protected <span class="xref">BOOSE.ICanvas</span> instance
+plus pen position fields used by concrete canvas commands (for example: <code>rect</code>, <code>circle</code>, <code>moveto</code>).</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCircle.html">AppCircle</a></h4>
+      <section><p>Represents the <code>circle</code> command.
+Validates a single integer parameter (radius) and instructs the canvas to draw a circle.
+Inherits from <a class="xref" href="Booze_Project.AppCommand1Param.html">AppCommand1Param</a>, the application-level single-parameter command base which derives from <a class="xref" href="Booze_Project.AppCanvasCommand.html">AppCanvasCommand</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a></h4>
+      <section><p>Base application command implementing <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a>.
+Provides common parameter handling, a reference to the containing <a class="xref" href="Booze_Project.AppStoredProgram.html">AppStoredProgram</a>,
+and basic compile/execute lifecycle behaviour used by concrete command implementations.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCommand1Param.html">AppCommand1Param</a></h4>
+      <section><p>Base class for application commands that accept exactly one parameter.
+Derives from <a class="xref" href="Booze_Project.AppCanvasCommand.html">AppCanvasCommand</a> and provides a standard
+parameter-count validation used by single-parameter canvas commands.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCommand2Param.html">AppCommand2Param</a></h4>
+      <section><p>Base class for application commands that accept exactly two parameters.
+Derives from <a class="xref" href="Booze_Project.AppCommand1Param.html">AppCommand1Param</a> and enforces a two-parameter count during compilation.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCommand3Param.html">AppCommand3Param</a></h4>
+      <section><p>Base class for application commands that accept exactly three parameters.
+Derives from <a class="xref" href="Booze_Project.AppCommand2Param.html">AppCommand2Param</a> and enforces a three-parameter count during compilation.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCommandFactory.html">AppCommandFactory</a></h4>
+      <section><p>Singleton factory that creates application-specific <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a> instances.
+Maps textual command names to concrete <code>App*</code> implementations used by the application.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppCompoundCommand.html">AppCompoundCommand</a></h4>
+      <section><p>Base class for compound conditional commands (for example the application-level <code>if</code>/<code>while</code> blocks).
+Extends <a class="xref" href="Booze_Project.AppConditionalCommand.html">AppConditionalCommand</a> and provides linking to the paired conditional (the corresponding <code>if</code>/<code>end</code>/<code>else</code> command)
+plus helper logic to normalise and evaluate conditional expressions.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppConditionalCommand.html">AppConditionalCommand</a></h4>
+      <section><p>Base class for commands that represent conditional behaviour (blocks/expressions).
+Inherits boolean evaluation behavior from <a class="xref" href="Booze_Project.AppBool.html">AppBool</a> and adds
+line-number bookkeeping and a runtime condition used to control program flow.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppElse.html">AppElse</a></h4>
+      <section><p>Represents an application-level <code>else</code> compound command.
+Acts as the partner for a preceding conditional (<code>if</code>) and links to the subsequent <code>end</code> command.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a></h4>
+      <section><p>Base class for variable evaluations and assignment-like commands.
+Provides storage for a variable name, an expression string and the evaluated result.
+Inherits common parameter handling from <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppInt.html">AppInt</a></h4>
+      <section><p>Application implementation for integer variable evaluation/assignment.
+Inherits parsing and evaluation behaviour from <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> and
+updates the containing program's integer variable store on successful evaluation.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppMoveTo.html">AppMoveTo</a></h4>
+      <section><p>Application implementation of the <code>moveto</code> command.
+Reads two integer parameters (x, y) and instructs the configured canvas to move the pen to that location.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppParser.html">AppParser</a></h4>
+      <section><p>Converts textual program source lines into concrete <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a> instances and registers them with an <a class="xref" href="Booze_Project.AppStoredProgram.html">AppStoredProgram</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppPenColor.html">AppPenColor</a></h4>
+      <section><p>Application implementation of a pen colour command.
+Parses three integer parameters (red, green, blue) and applies them to the active canvas pen.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppReal.html">AppReal</a></h4>
+      <section><p>Application implementation for real (double) variable evaluation/assignment.
+Inherits parsing and evaluation behaviour from <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> and stores the evaluated value as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppRect.html">AppRect</a></h4>
+      <section><p>Application implementation of the <code>rect</code> command.
+Validates two integer parameters (width and height) and instructs the configured canvas to draw a rectangle.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppStoredProgram.html">AppStoredProgram</a></h4>
+      <section><p>In-memory representation of an executable application program.
+Holds an ordered list of <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a> instances and provides execution, variable storage,
+expression evaluation and conditional-linking helpers used by the parser and command implementations.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.AppWrite.html">AppWrite</a></h4>
+      <section><p>Implements the application-level <code>write</code> command.
+Resolves tokens in the parameter list (variables or literals), evaluates the assembled expression,
+and writes the resulting text to the configured canvas via <code>Canvas.WriteText</code>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.Append.html">Append</a></h4>
+      <section><p>Represents the application-level <code>end</code> command that terminates a compound block.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.Appif.html">Appif</a></h4>
+      <section><p>Application implementation of the <code>if</code> compound command.
+Evaluates the conditional expression and, if the condition is false, advances the program counter to the command indexed by <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_EndLineNum">EndLineNum</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.ApplicationConfiguration.html">ApplicationConfiguration</a></h4>
+      <section><p>Bootstrap the application configuration.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.Appwhile.html">Appwhile</a></h4>
+      <section><p>Application implementation of the <code>while</code> compound command.
+Evaluates a boolean expression each iteration and, when false, advances the program counter to the linked <code>end</code> command.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.Booze_UI.html">Booze_UI</a></h4>
+      <section><p>Main Windows Forms UI for the BOOSE application.
+Hosts the drawing canvas, command factory, parser and stored program, and exposes event handlers for user actions.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.Program.html">Program</a></h4>
+      <section></section>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+      <h4><a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a></h4>
+      <section><p>Defines the contract for application command objects.
+Implementations represent executable program statements that can be compiled, validated and executed within an <a class="xref" href="Booze_Project.AppStoredProgram.html">AppStoredProgram</a>.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.IAppCommandFactory.html">IAppCommandFactory</a></h4>
+      <section><p>Defines a factory for creating application command instances.
+Implementations map textual command type names (as produced by the parser) to concrete <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a> objects.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.IAppParser.html">IAppParser</a></h4>
+      <section><p>Defines the contract for a parser that converts textual program source into application command instances.</p>
+</section>
+      <h4><a class="xref" href="Booze_Project.IAppStoredProgram.html">IAppStoredProgram</a></h4>
+      <section><p>Defines the runtime program container used by the application.
+Provides storage for commands, variables, conditional linking and expression evaluation.</p>
+</section>
+
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

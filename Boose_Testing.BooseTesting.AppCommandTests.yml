@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing.BooseTesting.AppCommandTests
+  commentId: T:Boose_Testing.BooseTesting.AppCommandTests
+  id: BooseTesting.AppCommandTests
+  parent: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+  - Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException
+  - Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  - Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+  - Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+  - Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+  langs:
+  - csharp
+  - vb
+  name: BooseTesting.AppCommandTests
+  nameWithType: BooseTesting.AppCommandTests
+  fullName: Boose_Testing.BooseTesting.AppCommandTests
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppCommandTests
+    path: ../Boose Testing/Test1.cs
+    startLine: 228
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Unit tests for the abstract <xref href="Booze_Project.AppCommand" data-throw-if-not-resolved="false"></xref> class.
+
+    Includes tests for parameter handling, compilation, and program registration.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseTesting.AppCommandTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseTesting.AppCommandTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+  id: ProcessParameters_SplitsSingleAndMultiple
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: ProcessParameters_SplitsSingleAndMultiple()
+  nameWithType: BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: ProcessParameters_SplitsSingleAndMultiple
+    path: ../Boose Testing/Test1.cs
+    startLine: 265
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Verifies that <xref href="Booze_Project.AppCommand.ProcessParameters(System.String)" data-throw-if-not-resolved="false"></xref> splits a single parameter correctly
+
+    and handles multiple parameters separated by commas.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ProcessParameters_SplitsSingleAndMultiple()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ProcessParameters_SplitsSingleAndMultiple()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+  id: Compile_CallsCheckParameters
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Compile_CallsCheckParameters()
+  nameWithType: BooseTesting.AppCommandTests.Compile_CallsCheckParameters()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Compile_CallsCheckParameters
+    path: ../Boose Testing/Test1.cs
+    startLine: 283
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCommand.Compile" data-throw-if-not-resolved="false"></xref> calls <xref href="Booze_Project.AppCommand.checkparameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Compile_CallsCheckParameters()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Compile_CallsCheckParameters()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+  id: Set_AddsCommandToProgram
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Set_AddsCommandToProgram()
+  nameWithType: BooseTesting.AppCommandTests.Set_AddsCommandToProgram()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Set_AddsCommandToProgram
+    path: ../Boose Testing/Test1.cs
+    startLine: 299
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram%2cSystem.String)" data-throw-if-not-resolved="false"></xref> registers the command in the program.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Set_AddsCommandToProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Set_AddsCommandToProgram()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  id: Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Paramhandler_WithNumericLiterals_ReturnsParsedIntegers()
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+    path: ../Boose Testing/Test1.cs
+    startLine: 315
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCommand.paramhandler" data-throw-if-not-resolved="false"></xref> correctly returns integer values for numeric literals.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Paramhandler_WithNumericLiterals_ReturnsParsedIntegers()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Paramhandler_WithNumericLiterals_ReturnsParsedIntegers()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+  id: Paramhandler_WithVariable_ResolvesValueFromProgram
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Paramhandler_WithVariable_ResolvesValueFromProgram()
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Paramhandler_WithVariable_ResolvesValueFromProgram
+    path: ../Boose Testing/Test1.cs
+    startLine: 333
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCommand.paramhandler" data-throw-if-not-resolved="false"></xref> resolves a variable's value from the program.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Paramhandler_WithVariable_ResolvesValueFromProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Paramhandler_WithVariable_ResolvesValueFromProgram()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException
+  commentId: M:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException
+  id: Paramhandler_InvalidToken_ThrowsBOOSEException
+  parent: Boose_Testing.BooseTesting.AppCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Paramhandler_InvalidToken_ThrowsBOOSEException()
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException()
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Paramhandler_InvalidToken_ThrowsBOOSEException
+    path: ../Boose Testing/Test1.cs
+    startLine: 356
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Verifies that <xref href="Booze_Project.AppCommand.paramhandler" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.BOOSEException" data-throw-if-not-resolved="false"></xref>
+
+    when a non-numeric, unresolved token is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Paramhandler_InvalidToken_ThrowsBOOSEException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Paramhandler_InvalidToken_ThrowsBOOSEException()
+  overload: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: Booze_Project.AppCommand
+  commentId: T:Booze_Project.AppCommand
+  parent: Booze_Project
+  href: Booze_Project.AppCommand.html
+  name: AppCommand
+  nameWithType: AppCommand
+  fullName: Booze_Project.AppCommand
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+  commentId: M:Booze_Project.AppCommand.ProcessParameters(System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  name: ProcessParameters(string)
+  nameWithType: AppCommand.ProcessParameters(string)
+  fullName: Booze_Project.AppCommand.ProcessParameters(string)
+  nameWithType.vb: AppCommand.ProcessParameters(String)
+  fullName.vb: Booze_Project.AppCommand.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_ProcessParameters_SplitsSingleAndMultiple
+  name: ProcessParameters_SplitsSingleAndMultiple
+  nameWithType: BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.ProcessParameters_SplitsSingleAndMultiple
+- uid: Booze_Project.AppCommand.Compile
+  commentId: M:Booze_Project.AppCommand.Compile
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  name: Compile()
+  nameWithType: AppCommand.Compile()
+  fullName: Booze_Project.AppCommand.Compile()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.Compile
+    name: Compile
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.Compile
+    name: Compile
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  - name: (
+  - name: )
+- uid: Booze_Project.AppCommand.checkparameters(System.String[])
+  commentId: M:Booze_Project.AppCommand.checkparameters(System.String[])
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_checkparameters_System_String___
+  name: checkparameters(string[])
+  nameWithType: AppCommand.checkparameters(string[])
+  fullName: Booze_Project.AppCommand.checkparameters(string[])
+  nameWithType.vb: AppCommand.checkparameters(String())
+  fullName.vb: Booze_Project.AppCommand.checkparameters(String())
+  name.vb: checkparameters(String())
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_Compile_CallsCheckParameters
+  name: Compile_CallsCheckParameters
+  nameWithType: BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Compile_CallsCheckParameters
+- uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  commentId: M:Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  name: set(AppStoredProgram, string)
+  nameWithType: AppCommand.set(AppStoredProgram, string)
+  fullName: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, string)
+  nameWithType.vb: AppCommand.set(AppStoredProgram, String)
+  fullName.vb: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, String)
+  name.vb: set(AppStoredProgram, String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_Set_AddsCommandToProgram
+  name: Set_AddsCommandToProgram
+  nameWithType: BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Set_AddsCommandToProgram
+- uid: Booze_Project.AppCommand.paramhandler
+  commentId: M:Booze_Project.AppCommand.paramhandler
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  name: paramhandler()
+  nameWithType: AppCommand.paramhandler()
+  fullName: Booze_Project.AppCommand.paramhandler()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  name: Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithNumericLiterals_ReturnsParsedIntegers
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_Paramhandler_WithVariable_ResolvesValueFromProgram
+  name: Paramhandler_WithVariable_ResolvesValueFromProgram
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_WithVariable_ResolvesValueFromProgram
+- uid: BOOSE.BOOSEException
+  commentId: T:BOOSE.BOOSEException
+  isExternal: true
+  name: BOOSEException
+  nameWithType: BOOSEException
+  fullName: BOOSE.BOOSEException
+- uid: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException
+  href: Boose_Testing.BooseTesting.AppCommandTests.html#Boose_Testing_BooseTesting_AppCommandTests_Paramhandler_InvalidToken_ThrowsBOOSEException
+  name: Paramhandler_InvalidToken_ThrowsBOOSEException
+  nameWithType: BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.Paramhandler_InvalidToken_ThrowsBOOSEException

@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  commentId: T:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  id: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  parent: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(Booze_Project.AppStoredProgram,System.String)
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException
+  langs:
+  - csharp
+  - vb
+  name: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppConditionalCommandTests
+    path: ../Boose Testing/Test1.cs
+    startLine: 745
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Helper methods and tests for <xref href="Booze_Project.AppConditionalCommand" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(Booze_Project.AppStoredProgram,System.String)
+  commentId: M:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(Booze_Project.AppStoredProgram,System.String)
+  id: CreateConditional(Booze_Project.AppStoredProgram,System.String)
+  parent: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CreateConditional(AppStoredProgram, string)
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(AppStoredProgram, string)
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(Booze_Project.AppStoredProgram, string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: CreateConditional
+    path: ../Boose Testing/Test1.cs
+    startLine: 748
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  syntax:
+    content: private static AppConditionalCommand CreateConditional(AppStoredProgram program, string expression)
+    parameters:
+    - id: program
+      type: Booze_Project.AppStoredProgram
+    - id: expression
+      type: System.String
+    return:
+      type: Booze_Project.AppConditionalCommand
+    content.vb: Private Shared Function CreateConditional(program As AppStoredProgram, expression As String) As AppConditionalCommand
+  overload: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional*
+  nameWithType.vb: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(AppStoredProgram, String)
+  fullName.vb: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional(Booze_Project.AppStoredProgram, String)
+  name.vb: CreateConditional(AppStoredProgram, String)
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  commentId: M:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  id: Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  parent: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum()
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum()
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+    path: ../Boose Testing/Test1.cs
+    startLine: 761
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that when the condition evaluates false, the program counter is set to <xref href="Booze_Project.AppConditionalCommand.EndLineNum" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum()
+  overload: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+  commentId: M:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+  id: Compile_WithoutProgram_ThrowsNullReferenceException
+  parent: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Compile_WithoutProgram_ThrowsNullReferenceException()
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException()
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Compile_WithoutProgram_ThrowsNullReferenceException
+    path: ../Boose Testing/Test1.cs
+    startLine: 784
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that compiling without assigning a program throws <xref href="System.NullReferenceException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Compile_WithoutProgram_ThrowsNullReferenceException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Compile_WithoutProgram_ThrowsNullReferenceException()
+  overload: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException
+  commentId: M:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException
+  id: Execute_WithoutProgram_ThrowsNullReferenceException
+  parent: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WithoutProgram_ThrowsNullReferenceException()
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException()
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_WithoutProgram_ThrowsNullReferenceException
+    path: ../Boose Testing/Test1.cs
+    startLine: 797
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that executing without assigning a program throws <xref href="System.NullReferenceException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WithoutProgram_ThrowsNullReferenceException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WithoutProgram_ThrowsNullReferenceException()
+  overload: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: Booze_Project.AppConditionalCommand
+  commentId: T:Booze_Project.AppConditionalCommand
+  parent: Booze_Project
+  href: Booze_Project.AppConditionalCommand.html
+  name: AppConditionalCommand
+  nameWithType: AppConditionalCommand
+  fullName: Booze_Project.AppConditionalCommand
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional*
+  commentId: Overload:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional
+  href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html#Boose_Testing_BooseTesting_AppcondtionalCommandtest_AppConditionalCommandTests_CreateConditional_Booze_Project_AppStoredProgram_System_String_
+  name: CreateConditional
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.CreateConditional
+- uid: Booze_Project.AppStoredProgram
+  commentId: T:Booze_Project.AppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: Booze_Project.AppStoredProgram
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Booze_Project.AppConditionalCommand.EndLineNum
+  commentId: P:Booze_Project.AppConditionalCommand.EndLineNum
+  parent: Booze_Project.AppConditionalCommand
+  href: Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_EndLineNum
+  name: EndLineNum
+  nameWithType: AppConditionalCommand.EndLineNum
+  fullName: Booze_Project.AppConditionalCommand.EndLineNum
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum*
+  commentId: Overload:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html#Boose_Testing_BooseTesting_AppcondtionalCommandtest_AppConditionalCommandTests_Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  name: Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WhenConditionFalse_SetsProgramCounterToEndLineNum
+- uid: System.NullReferenceException
+  commentId: T:System.NullReferenceException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullreferenceexception
+  name: NullReferenceException
+  nameWithType: NullReferenceException
+  fullName: System.NullReferenceException
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException*
+  commentId: Overload:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+  href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html#Boose_Testing_BooseTesting_AppcondtionalCommandtest_AppConditionalCommandTests_Compile_WithoutProgram_ThrowsNullReferenceException
+  name: Compile_WithoutProgram_ThrowsNullReferenceException
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Compile_WithoutProgram_ThrowsNullReferenceException
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException*
+  commentId: Overload:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException
+  href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html#Boose_Testing_BooseTesting_AppcondtionalCommandtest_AppConditionalCommandTests_Execute_WithoutProgram_ThrowsNullReferenceException
+  name: Execute_WithoutProgram_ThrowsNullReferenceException
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.Execute_WithoutProgram_ThrowsNullReferenceException

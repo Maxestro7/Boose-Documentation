@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.Properties
+  commentId: N:Booze_Project.Properties
+  id: Booze_Project.Properties
+  children:
+  - Booze_Project.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Booze_Project.Properties
+  nameWithType: Booze_Project.Properties
+  fullName: Booze_Project.Properties
+  type: Namespace
+  assemblies:
+  - Booze Project
+references:
+- uid: Booze_Project.Properties.Resources
+  commentId: T:Booze_Project.Properties.Resources
+  href: Booze_Project.Properties.Resources.html
+  name: Resources
+  nameWithType: Resources
+  fullName: Booze_Project.Properties.Resources

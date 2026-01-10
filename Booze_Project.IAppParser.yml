@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.IAppParser
+  commentId: T:Booze_Project.IAppParser
+  id: IAppParser
+  parent: Booze_Project
+  children:
+  - Booze_Project.IAppParser.ParseCommand(System.String)
+  - Booze_Project.IAppParser.ParseProgram(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAppParser
+  nameWithType: IAppParser
+  fullName: Booze_Project.IAppParser
+  type: Interface
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppParser.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: IAppParser
+    path: ../Booze Project/IAppParser.cs
+    startLine: 18
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Defines the contract for a parser that converts textual program source into application command instances.
+  remarks: >-
+    Implementations should:
+
+    - Tokenise and normalise source lines,
+
+    - Create concrete <xref href="Booze_Project.IAppCommand" data-throw-if-not-resolved="false"></xref> instances using an <xref href="Booze_Project.IAppCommandFactory" data-throw-if-not-resolved="false"></xref>,
+
+    - Assign commands to an <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref> and call <xref href="Booze_Project.IAppCommand.Compile" data-throw-if-not-resolved="false"></xref> for each command,
+
+    - Provide both single-line parsing and multi-line program parsing entry points.
+  example: []
+  syntax:
+    content: public interface IAppParser
+    content.vb: Public Interface IAppParser
+- uid: Booze_Project.IAppParser.ParseCommand(System.String)
+  commentId: M:Booze_Project.IAppParser.ParseCommand(System.String)
+  id: ParseCommand(System.String)
+  parent: Booze_Project.IAppParser
+  langs:
+  - csharp
+  - vb
+  name: ParseCommand(string)
+  nameWithType: IAppParser.ParseCommand(string)
+  fullName: Booze_Project.IAppParser.ParseCommand(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppParser.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: ParseCommand
+    path: ../Booze Project/IAppParser.cs
+    startLine: 28
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Parse a single source line and return the created command.
+  example: []
+  syntax:
+    content: IAppCommand ParseCommand(string line)
+    parameters:
+    - id: line
+      type: System.String
+      description: A single source line (typically already trimmed).
+    return:
+      type: Booze_Project.IAppCommand
+      description: >-
+        A concrete <xref href="Booze_Project.IAppCommand" data-throw-if-not-resolved="false"></xref> representing the parsed line, or <code>null</code> for lines that should be ignored
+
+        (for example comment lines). The caller is responsible for handling any exceptions thrown during parsing/compilation.
+    content.vb: Function ParseCommand(line As String) As IAppCommand
+  overload: Booze_Project.IAppParser.ParseCommand*
+  nameWithType.vb: IAppParser.ParseCommand(String)
+  fullName.vb: Booze_Project.IAppParser.ParseCommand(String)
+  name.vb: ParseCommand(String)
+- uid: Booze_Project.IAppParser.ParseProgram(System.String)
+  commentId: M:Booze_Project.IAppParser.ParseProgram(System.String)
+  id: ParseProgram(System.String)
+  parent: Booze_Project.IAppParser
+  langs:
+  - csharp
+  - vb
+  name: ParseProgram(string)
+  nameWithType: IAppParser.ParseProgram(string)
+  fullName: Booze_Project.IAppParser.ParseProgram(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppParser.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: ParseProgram
+    path: ../Booze Project/IAppParser.cs
+    startLine: 38
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Parse a multi-line program text and add compiled commands to the associated program.
+  remarks: >-
+    Implementations typically iterate lines, skip empty/comment lines, and call <xref href="Booze_Project.IAppParser.ParseCommand(System.String)" data-throw-if-not-resolved="false"></xref>
+
+    for each non-empty line. Errors during parsing should be reported via thrown exceptions so the caller can surface them.
+  example: []
+  syntax:
+    content: void ParseProgram(string program)
+    parameters:
+    - id: program
+      type: System.String
+      description: Program text with lines separated by newline characters.
+    content.vb: Sub ParseProgram(program As String)
+  overload: Booze_Project.IAppParser.ParseProgram*
+  nameWithType.vb: IAppParser.ParseProgram(String)
+  fullName.vb: Booze_Project.IAppParser.ParseProgram(String)
+  name.vb: ParseProgram(String)
+references:
+- uid: Booze_Project.IAppCommand
+  commentId: T:Booze_Project.IAppCommand
+  parent: Booze_Project
+  href: Booze_Project.IAppCommand.html
+  name: IAppCommand
+  nameWithType: IAppCommand
+  fullName: Booze_Project.IAppCommand
+- uid: Booze_Project.IAppCommandFactory
+  commentId: T:Booze_Project.IAppCommandFactory
+  parent: Booze_Project
+  href: Booze_Project.IAppCommandFactory.html
+  name: IAppCommandFactory
+  nameWithType: IAppCommandFactory
+  fullName: Booze_Project.IAppCommandFactory
+- uid: Booze_Project.AppStoredProgram
+  commentId: T:Booze_Project.AppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: Booze_Project.AppStoredProgram
+- uid: Booze_Project.IAppCommand.Compile
+  commentId: M:Booze_Project.IAppCommand.Compile
+  parent: Booze_Project.IAppCommand
+  href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_Compile
+  name: Compile()
+  nameWithType: IAppCommand.Compile()
+  fullName: Booze_Project.IAppCommand.Compile()
+  spec.csharp:
+  - uid: Booze_Project.IAppCommand.Compile
+    name: Compile
+    href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.IAppCommand.Compile
+    name: Compile
+    href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_Compile
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: Booze_Project.IAppParser.ParseCommand*
+  commentId: Overload:Booze_Project.IAppParser.ParseCommand
+  href: Booze_Project.IAppParser.html#Booze_Project_IAppParser_ParseCommand_System_String_
+  name: ParseCommand
+  nameWithType: IAppParser.ParseCommand
+  fullName: Booze_Project.IAppParser.ParseCommand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.IAppParser.ParseCommand(System.String)
+  commentId: M:Booze_Project.IAppParser.ParseCommand(System.String)
+  parent: Booze_Project.IAppParser
+  isExternal: true
+  href: Booze_Project.IAppParser.html#Booze_Project_IAppParser_ParseCommand_System_String_
+  name: ParseCommand(string)
+  nameWithType: IAppParser.ParseCommand(string)
+  fullName: Booze_Project.IAppParser.ParseCommand(string)
+  nameWithType.vb: IAppParser.ParseCommand(String)
+  fullName.vb: Booze_Project.IAppParser.ParseCommand(String)
+  name.vb: ParseCommand(String)
+  spec.csharp:
+  - uid: Booze_Project.IAppParser.ParseCommand(System.String)
+    name: ParseCommand
+    href: Booze_Project.IAppParser.html#Booze_Project_IAppParser_ParseCommand_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.IAppParser.ParseCommand(System.String)
+    name: ParseCommand
+    href: Booze_Project.IAppParser.html#Booze_Project_IAppParser_ParseCommand_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Booze_Project.IAppParser.ParseProgram*
+  commentId: Overload:Booze_Project.IAppParser.ParseProgram
+  href: Booze_Project.IAppParser.html#Booze_Project_IAppParser_ParseProgram_System_String_
+  name: ParseProgram
+  nameWithType: IAppParser.ParseProgram
+  fullName: Booze_Project.IAppParser.ParseProgram
+- uid: Booze_Project.IAppParser
+  commentId: T:Booze_Project.IAppParser
+  parent: Booze_Project
+  href: Booze_Project.IAppParser.html
+  name: IAppParser
+  nameWithType: IAppParser
+  fullName: Booze_Project.IAppParser

@@ -1,0 +1,782 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.IAppStoredProgram
+  commentId: T:Booze_Project.IAppStoredProgram
+  id: IAppStoredProgram
+  parent: Booze_Project
+  children:
+  - Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)
+  - Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)
+  - Booze_Project.IAppStoredProgram.Commandsleft
+  - Booze_Project.IAppStoredProgram.EvaluateExpression(System.String)
+  - Booze_Project.IAppStoredProgram.GetVarValue(System.String)
+  - Booze_Project.IAppStoredProgram.Getvariable(System.Int32)
+  - Booze_Project.IAppStoredProgram.Getvariable(System.String)
+  - Booze_Project.IAppStoredProgram.IsExpression(System.String)
+  - Booze_Project.IAppStoredProgram.PC
+  - Booze_Project.IAppStoredProgram.ResetProgram
+  - Booze_Project.IAppStoredProgram.Run
+  - Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Boolean)
+  - Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Double)
+  - Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Int32)
+  - Booze_Project.IAppStoredProgram.VariableExists(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAppStoredProgram
+  nameWithType: IAppStoredProgram
+  fullName: Booze_Project.IAppStoredProgram
+  type: Interface
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: IAppStoredProgram
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 18
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Defines the runtime program container used by the application.
+
+    Provides storage for commands, variables, conditional linking and expression evaluation.
+  remarks: >-
+    Implementations manage a program counter (<xref href="Booze_Project.IAppStoredProgram.PC" data-throw-if-not-resolved="false"></xref>) and expose methods for adding commands and variables,
+
+    evaluating expressions, and driving program execution. The parser and command implementations interact with
+
+    an <xref href="Booze_Project.IAppStoredProgram" data-throw-if-not-resolved="false"></xref> instance to register commands, resolve variables and compute expressions.
+  example: []
+  syntax:
+    content: public interface IAppStoredProgram
+    content.vb: Public Interface IAppStoredProgram
+- uid: Booze_Project.IAppStoredProgram.PC
+  commentId: P:Booze_Project.IAppStoredProgram.PC
+  id: PC
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: PC
+  nameWithType: IAppStoredProgram.PC
+  fullName: Booze_Project.IAppStoredProgram.PC
+  type: Property
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: PC
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 23
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Program counter index (the next command index to execute).
+  example: []
+  syntax:
+    content: int PC { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property PC As Integer
+  overload: Booze_Project.IAppStoredProgram.PC*
+- uid: Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)
+  commentId: M:Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)
+  id: AddVariable(Booze_Project.AppEvaluation)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: AddVariable(AppEvaluation)
+  nameWithType: IAppStoredProgram.AddVariable(AppEvaluation)
+  fullName: Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AddVariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 30
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Register a variable (<xref href="Booze_Project.AppEvaluation" data-throw-if-not-resolved="false"></xref>) with the program.
+
+    If the variable already exists the implementation may ignore the add or raise an error.
+  example: []
+  syntax:
+    content: void AddVariable(AppEvaluation Variable)
+    parameters:
+    - id: Variable
+      type: Booze_Project.AppEvaluation
+      description: Variable instance to add.
+    content.vb: Sub AddVariable(Variable As AppEvaluation)
+  overload: Booze_Project.IAppStoredProgram.AddVariable*
+- uid: Booze_Project.IAppStoredProgram.VariableExists(System.String)
+  commentId: M:Booze_Project.IAppStoredProgram.VariableExists(System.String)
+  id: VariableExists(System.String)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: VariableExists(string)
+  nameWithType: IAppStoredProgram.VariableExists(string)
+  fullName: Booze_Project.IAppStoredProgram.VariableExists(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: VariableExists
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 37
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Returns whether a variable with the specified name exists in the program.
+  example: []
+  syntax:
+    content: bool VariableExists(string varName)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Name of the variable to check.
+    return:
+      type: System.Boolean
+      description: <code>true</code> when the variable exists; otherwise <code>false</code>.
+    content.vb: Function VariableExists(varName As String) As Boolean
+  overload: Booze_Project.IAppStoredProgram.VariableExists*
+  nameWithType.vb: IAppStoredProgram.VariableExists(String)
+  fullName.vb: Booze_Project.IAppStoredProgram.VariableExists(String)
+  name.vb: VariableExists(String)
+- uid: Booze_Project.IAppStoredProgram.GetVarValue(System.String)
+  commentId: M:Booze_Project.IAppStoredProgram.GetVarValue(System.String)
+  id: GetVarValue(System.String)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: GetVarValue(string)
+  nameWithType: IAppStoredProgram.GetVarValue(string)
+  fullName: Booze_Project.IAppStoredProgram.GetVarValue(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: GetVarValue
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 45
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Gets the current textual representation of a variable's value.
+  example: []
+  syntax:
+    content: string GetVarValue(string varName)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Name of the variable to read.
+    return:
+      type: System.String
+      description: String containing the variable's value.
+    content.vb: Function GetVarValue(varName As String) As String
+  overload: Booze_Project.IAppStoredProgram.GetVarValue*
+  exceptions:
+  - type: BOOSE.StoredProgramException
+    commentId: T:BOOSE.StoredProgramException
+    description: Thrown when the variable does not exist.
+  nameWithType.vb: IAppStoredProgram.GetVarValue(String)
+  fullName.vb: Booze_Project.IAppStoredProgram.GetVarValue(String)
+  name.vb: GetVarValue(String)
+- uid: Booze_Project.IAppStoredProgram.IsExpression(System.String)
+  commentId: M:Booze_Project.IAppStoredProgram.IsExpression(System.String)
+  id: IsExpression(System.String)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: IsExpression(string)
+  nameWithType: IAppStoredProgram.IsExpression(string)
+  fullName: Booze_Project.IAppStoredProgram.IsExpression(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: IsExpression
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 52
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Determines whether a given string should be treated as an expression for evaluation.
+  example: []
+  syntax:
+    content: bool IsExpression(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+      description: Candidate expression string.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the string is considered an expression (numeric or operator-containing), otherwise <code>false</code>.
+    content.vb: Function IsExpression(expression As String) As Boolean
+  overload: Booze_Project.IAppStoredProgram.IsExpression*
+  nameWithType.vb: IAppStoredProgram.IsExpression(String)
+  fullName.vb: Booze_Project.IAppStoredProgram.IsExpression(String)
+  name.vb: IsExpression(String)
+- uid: Booze_Project.IAppStoredProgram.EvaluateExpression(System.String)
+  commentId: M:Booze_Project.IAppStoredProgram.EvaluateExpression(System.String)
+  id: EvaluateExpression(System.String)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: EvaluateExpression(string)
+  nameWithType: IAppStoredProgram.EvaluateExpression(string)
+  fullName: Booze_Project.IAppStoredProgram.EvaluateExpression(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: EvaluateExpression
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 60
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Evaluates an expression string after substituting variable names with their current values.
+  example: []
+  syntax:
+    content: string EvaluateExpression(string Exp)
+    parameters:
+    - id: Exp
+      type: System.String
+      description: Expression to evaluate (tokens expected to be space-separated).
+    return:
+      type: System.String
+      description: Result of the evaluation as a string.
+    content.vb: Function EvaluateExpression(Exp As String) As String
+  overload: Booze_Project.IAppStoredProgram.EvaluateExpression*
+  exceptions:
+  - type: BOOSE.StoredProgramException
+    commentId: T:BOOSE.StoredProgramException
+    description: Thrown when the expression is invalid or evaluation fails.
+  nameWithType.vb: IAppStoredProgram.EvaluateExpression(String)
+  fullName.vb: Booze_Project.IAppStoredProgram.EvaluateExpression(String)
+  name.vb: EvaluateExpression(String)
+- uid: Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)
+  commentId: M:Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)
+  id: Add(Booze_Project.AppCommand)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: Add(AppCommand)
+  nameWithType: IAppStoredProgram.Add(AppCommand)
+  fullName: Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Add
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 69
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Adds a compiled <xref href="Booze_Project.AppCommand" data-throw-if-not-resolved="false"></xref> to the program.
+
+    Implementations typically assign the program's canvas to canvas-aware commands.
+  example: []
+  syntax:
+    content: int Add(AppCommand C)
+    parameters:
+    - id: C
+      type: Booze_Project.AppCommand
+      description: Command to add.
+    return:
+      type: System.Int32
+      description: Index at which the command was added.
+    content.vb: Function Add(C As AppCommand) As Integer
+  overload: Booze_Project.IAppStoredProgram.Add*
+  exceptions:
+  - type: BOOSE.StoredProgramException
+    commentId: T:BOOSE.StoredProgramException
+    description: Thrown when <code class="paramref">C</code> is null or otherwise invalid.
+- uid: Booze_Project.IAppStoredProgram.ResetProgram
+  commentId: M:Booze_Project.IAppStoredProgram.ResetProgram
+  id: ResetProgram
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: ResetProgram()
+  nameWithType: IAppStoredProgram.ResetProgram()
+  fullName: Booze_Project.IAppStoredProgram.ResetProgram()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: ResetProgram
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 74
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: 'Reset program state: clear commands, variables, condition stacks, reset canvas and PC.'
+  example: []
+  syntax:
+    content: void ResetProgram()
+    content.vb: Sub ResetProgram()
+  overload: Booze_Project.IAppStoredProgram.ResetProgram*
+- uid: Booze_Project.IAppStoredProgram.Commandsleft
+  commentId: M:Booze_Project.IAppStoredProgram.Commandsleft
+  id: Commandsleft
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: Commandsleft()
+  nameWithType: IAppStoredProgram.Commandsleft()
+  fullName: Booze_Project.IAppStoredProgram.Commandsleft()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Commandsleft
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 80
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Returns whether there are remaining commands to execute (PC &lt; command count).
+  example: []
+  syntax:
+    content: bool Commandsleft()
+    return:
+      type: System.Boolean
+      description: <code>true</code> when commands remain; otherwise <code>false</code>.
+    content.vb: Function Commandsleft() As Boolean
+  overload: Booze_Project.IAppStoredProgram.Commandsleft*
+- uid: Booze_Project.IAppStoredProgram.Run
+  commentId: M:Booze_Project.IAppStoredProgram.Run
+  id: Run
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: IAppStoredProgram.Run()
+  fullName: Booze_Project.IAppStoredProgram.Run()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Run
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 89
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Execute the stored program starting at the current <xref href="Booze_Project.IAppStoredProgram.PC" data-throw-if-not-resolved="false"></xref> until completion or an error occurs.
+
+    Implementations are expected to update <xref href="Booze_Project.IAppStoredProgram.PC" data-throw-if-not-resolved="false"></xref> as commands modify control flow.
+  remarks: Errors encountered during command execution should be surfaced via exceptions (for example <xref href="BOOSE.StoredProgramException" data-throw-if-not-resolved="false"></xref>).
+  example: []
+  syntax:
+    content: void Run()
+    content.vb: Sub Run()
+  overload: Booze_Project.IAppStoredProgram.Run*
+- uid: Booze_Project.IAppStoredProgram.Getvariable(System.String)
+  commentId: M:Booze_Project.IAppStoredProgram.Getvariable(System.String)
+  id: Getvariable(System.String)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: Getvariable(string)
+  nameWithType: IAppStoredProgram.Getvariable(string)
+  fullName: Booze_Project.IAppStoredProgram.Getvariable(string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Getvariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 97
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Gets the variable instance by name.
+  example: []
+  syntax:
+    content: AppEvaluation Getvariable(string varName)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Variable name to retrieve.
+    return:
+      type: Booze_Project.AppEvaluation
+      description: The <xref href="Booze_Project.AppEvaluation" data-throw-if-not-resolved="false"></xref> instance for the variable.
+    content.vb: Function Getvariable(varName As String) As AppEvaluation
+  overload: Booze_Project.IAppStoredProgram.Getvariable*
+  exceptions:
+  - type: BOOSE.StoredProgramException
+    commentId: T:BOOSE.StoredProgramException
+    description: Thrown when the variable is not found.
+  nameWithType.vb: IAppStoredProgram.Getvariable(String)
+  fullName.vb: Booze_Project.IAppStoredProgram.Getvariable(String)
+  name.vb: Getvariable(String)
+- uid: Booze_Project.IAppStoredProgram.Getvariable(System.Int32)
+  commentId: M:Booze_Project.IAppStoredProgram.Getvariable(System.Int32)
+  id: Getvariable(System.Int32)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: Getvariable(int)
+  nameWithType: IAppStoredProgram.Getvariable(int)
+  fullName: Booze_Project.IAppStoredProgram.Getvariable(int)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Getvariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 105
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Gets the variable instance by index in the internal variable table.
+  example: []
+  syntax:
+    content: AppEvaluation Getvariable(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index of the variable.
+    return:
+      type: Booze_Project.AppEvaluation
+      description: The <xref href="Booze_Project.AppEvaluation" data-throw-if-not-resolved="false"></xref> instance at the specified index.
+    content.vb: Function Getvariable(index As Integer) As AppEvaluation
+  overload: Booze_Project.IAppStoredProgram.Getvariable*
+  exceptions:
+  - type: BOOSE.StoredProgramException
+    commentId: T:BOOSE.StoredProgramException
+    description: Thrown when the index is out of range.
+  nameWithType.vb: IAppStoredProgram.Getvariable(Integer)
+  fullName.vb: Booze_Project.IAppStoredProgram.Getvariable(Integer)
+  name.vb: Getvariable(Integer)
+- uid: Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Int32)
+  commentId: M:Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Int32)
+  id: UpdateVariable(System.String,System.Int32)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: UpdateVariable(string, int)
+  nameWithType: IAppStoredProgram.UpdateVariable(string, int)
+  fullName: Booze_Project.IAppStoredProgram.UpdateVariable(string, int)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: UpdateVariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 112
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Update an integer variable's value.
+  example: []
+  syntax:
+    content: void UpdateVariable(string varName, int value)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Variable name to update.
+    - id: value
+      type: System.Int32
+      description: Integer value to assign.
+    content.vb: Sub UpdateVariable(varName As String, value As Integer)
+  overload: Booze_Project.IAppStoredProgram.UpdateVariable*
+  nameWithType.vb: IAppStoredProgram.UpdateVariable(String, Integer)
+  fullName.vb: Booze_Project.IAppStoredProgram.UpdateVariable(String, Integer)
+  name.vb: UpdateVariable(String, Integer)
+- uid: Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Double)
+  commentId: M:Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Double)
+  id: UpdateVariable(System.String,System.Double)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: UpdateVariable(string, double)
+  nameWithType: IAppStoredProgram.UpdateVariable(string, double)
+  fullName: Booze_Project.IAppStoredProgram.UpdateVariable(string, double)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: UpdateVariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 119
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Update a real (double) variable's value.
+  example: []
+  syntax:
+    content: void UpdateVariable(string varName, double value)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Variable name to update.
+    - id: value
+      type: System.Double
+      description: Double value to assign.
+    content.vb: Sub UpdateVariable(varName As String, value As Double)
+  overload: Booze_Project.IAppStoredProgram.UpdateVariable*
+  nameWithType.vb: IAppStoredProgram.UpdateVariable(String, Double)
+  fullName.vb: Booze_Project.IAppStoredProgram.UpdateVariable(String, Double)
+  name.vb: UpdateVariable(String, Double)
+- uid: Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Boolean)
+  commentId: M:Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Boolean)
+  id: UpdateVariable(System.String,System.Boolean)
+  parent: Booze_Project.IAppStoredProgram
+  langs:
+  - csharp
+  - vb
+  name: UpdateVariable(string, bool)
+  nameWithType: IAppStoredProgram.UpdateVariable(string, bool)
+  fullName: Booze_Project.IAppStoredProgram.UpdateVariable(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppStoredProgram.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: UpdateVariable
+    path: ../Booze Project/IAppStoredProgram.cs
+    startLine: 126
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Update a boolean variable's value.
+  example: []
+  syntax:
+    content: void UpdateVariable(string varName, bool value)
+    parameters:
+    - id: varName
+      type: System.String
+      description: Variable name to update.
+    - id: value
+      type: System.Boolean
+      description: Boolean value to assign.
+    content.vb: Sub UpdateVariable(varName As String, value As Boolean)
+  overload: Booze_Project.IAppStoredProgram.UpdateVariable*
+  nameWithType.vb: IAppStoredProgram.UpdateVariable(String, Boolean)
+  fullName.vb: Booze_Project.IAppStoredProgram.UpdateVariable(String, Boolean)
+  name.vb: UpdateVariable(String, Boolean)
+references:
+- uid: Booze_Project.IAppStoredProgram.PC
+  commentId: P:Booze_Project.IAppStoredProgram.PC
+  parent: Booze_Project.IAppStoredProgram
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_PC
+  name: PC
+  nameWithType: IAppStoredProgram.PC
+  fullName: Booze_Project.IAppStoredProgram.PC
+- uid: Booze_Project.IAppStoredProgram
+  commentId: T:Booze_Project.IAppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.IAppStoredProgram.html
+  name: IAppStoredProgram
+  nameWithType: IAppStoredProgram
+  fullName: Booze_Project.IAppStoredProgram
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: Booze_Project.IAppStoredProgram.PC*
+  commentId: Overload:Booze_Project.IAppStoredProgram.PC
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_PC
+  name: PC
+  nameWithType: IAppStoredProgram.PC
+  fullName: Booze_Project.IAppStoredProgram.PC
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.AppEvaluation
+  commentId: T:Booze_Project.AppEvaluation
+  parent: Booze_Project
+  href: Booze_Project.AppEvaluation.html
+  name: AppEvaluation
+  nameWithType: AppEvaluation
+  fullName: Booze_Project.AppEvaluation
+- uid: Booze_Project.IAppStoredProgram.AddVariable*
+  commentId: Overload:Booze_Project.IAppStoredProgram.AddVariable
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_AddVariable_Booze_Project_AppEvaluation_
+  name: AddVariable
+  nameWithType: IAppStoredProgram.AddVariable
+  fullName: Booze_Project.IAppStoredProgram.AddVariable
+- uid: Booze_Project.IAppStoredProgram.VariableExists*
+  commentId: Overload:Booze_Project.IAppStoredProgram.VariableExists
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_VariableExists_System_String_
+  name: VariableExists
+  nameWithType: IAppStoredProgram.VariableExists
+  fullName: Booze_Project.IAppStoredProgram.VariableExists
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BOOSE.StoredProgramException
+  commentId: T:BOOSE.StoredProgramException
+  parent: BOOSE
+  isExternal: true
+  name: StoredProgramException
+  nameWithType: StoredProgramException
+  fullName: BOOSE.StoredProgramException
+- uid: Booze_Project.IAppStoredProgram.GetVarValue*
+  commentId: Overload:Booze_Project.IAppStoredProgram.GetVarValue
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_GetVarValue_System_String_
+  name: GetVarValue
+  nameWithType: IAppStoredProgram.GetVarValue
+  fullName: Booze_Project.IAppStoredProgram.GetVarValue
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: Booze_Project.IAppStoredProgram.IsExpression*
+  commentId: Overload:Booze_Project.IAppStoredProgram.IsExpression
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_IsExpression_System_String_
+  name: IsExpression
+  nameWithType: IAppStoredProgram.IsExpression
+  fullName: Booze_Project.IAppStoredProgram.IsExpression
+- uid: Booze_Project.IAppStoredProgram.EvaluateExpression*
+  commentId: Overload:Booze_Project.IAppStoredProgram.EvaluateExpression
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_EvaluateExpression_System_String_
+  name: EvaluateExpression
+  nameWithType: IAppStoredProgram.EvaluateExpression
+  fullName: Booze_Project.IAppStoredProgram.EvaluateExpression
+- uid: Booze_Project.AppCommand
+  commentId: T:Booze_Project.AppCommand
+  parent: Booze_Project
+  href: Booze_Project.AppCommand.html
+  name: AppCommand
+  nameWithType: AppCommand
+  fullName: Booze_Project.AppCommand
+- uid: Booze_Project.IAppStoredProgram.Add*
+  commentId: Overload:Booze_Project.IAppStoredProgram.Add
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_Add_Booze_Project_AppCommand_
+  name: Add
+  nameWithType: IAppStoredProgram.Add
+  fullName: Booze_Project.IAppStoredProgram.Add
+- uid: Booze_Project.IAppStoredProgram.ResetProgram*
+  commentId: Overload:Booze_Project.IAppStoredProgram.ResetProgram
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_ResetProgram
+  name: ResetProgram
+  nameWithType: IAppStoredProgram.ResetProgram
+  fullName: Booze_Project.IAppStoredProgram.ResetProgram
+- uid: Booze_Project.IAppStoredProgram.Commandsleft*
+  commentId: Overload:Booze_Project.IAppStoredProgram.Commandsleft
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_Commandsleft
+  name: Commandsleft
+  nameWithType: IAppStoredProgram.Commandsleft
+  fullName: Booze_Project.IAppStoredProgram.Commandsleft
+- uid: Booze_Project.IAppStoredProgram.Run*
+  commentId: Overload:Booze_Project.IAppStoredProgram.Run
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_Run
+  name: Run
+  nameWithType: IAppStoredProgram.Run
+  fullName: Booze_Project.IAppStoredProgram.Run
+- uid: Booze_Project.IAppStoredProgram.Getvariable*
+  commentId: Overload:Booze_Project.IAppStoredProgram.Getvariable
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_Getvariable_System_String_
+  name: Getvariable
+  nameWithType: IAppStoredProgram.Getvariable
+  fullName: Booze_Project.IAppStoredProgram.Getvariable
+- uid: Booze_Project.IAppStoredProgram.UpdateVariable*
+  commentId: Overload:Booze_Project.IAppStoredProgram.UpdateVariable
+  href: Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Int32_
+  name: UpdateVariable
+  nameWithType: IAppStoredProgram.UpdateVariable
+  fullName: Booze_Project.IAppStoredProgram.UpdateVariable
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

@@ -1,0 +1,963 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  id: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting
+  - Boose_Testing.BooseTesting.AppCanvasTests
+  - Boose_Testing.BooseTesting.AppCircleTests
+  - Boose_Testing.BooseTesting.AppCommandTests
+  - Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+  - Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+  - Boose_Testing.BooseTesting.AppPenColour
+  - Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+  - Boose_Testing.BooseTesting.AppStoredProgramTest
+  - Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+  - Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+  - Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+  - Boose_Testing.BooseTesting.AppWriteTests
+  - Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  - Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  - Boose_Testing.BooseTesting.appbooltest
+  - Boose_Testing.BooseTesting.appcommand1test
+  - Boose_Testing.BooseTesting.appcommand2param
+  - Boose_Testing.BooseTesting.appcommand3param
+  - Boose_Testing.BooseTesting.appcommandfactorytest
+  - Boose_Testing.BooseTesting.appcompoundcommandtest
+  - Boose_Testing.BooseTesting.appelsetest
+  - Boose_Testing.BooseTesting.appendtest
+  - Boose_Testing.BooseTesting.appevaluationtest
+  - Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+  - Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+  - Boose_Testing.BooseTesting.appiftest
+  - Boose_Testing.BooseTesting.appiftest.TestProgram
+  - Boose_Testing.BooseTesting.appinttest
+  - Boose_Testing.BooseTesting.appinttest.TestVariable
+  - Boose_Testing.BooseTesting.apprealtest
+  - Boose_Testing.BooseTesting.apprealtest.TestVariable
+  - Boose_Testing.BooseTesting.apprecttest
+  - Boose_Testing.BooseTesting.apprecttest.TestCanvas
+  langs:
+  - csharp
+  - vb
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+  type: Namespace
+  assemblies:
+  - Boose Testing
+references:
+- uid: Boose_Testing.BooseTesting
+  commentId: T:Boose_Testing.BooseTesting
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting
+  nameWithType: BooseTesting
+  fullName: Boose_Testing.BooseTesting
+- uid: Boose_Testing.BooseTesting.AppCanvasTests
+  commentId: T:Boose_Testing.BooseTesting.AppCanvasTests
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppCanvasTests
+  nameWithType: BooseTesting.AppCanvasTests
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCanvasTests
+    name: AppCanvasTests
+    href: Boose_Testing.BooseTesting.AppCanvasTests.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCanvasTests
+    name: AppCanvasTests
+    href: Boose_Testing.BooseTesting.AppCanvasTests.html
+- uid: Boose_Testing.BooseTesting.AppCircleTests
+  commentId: T:Boose_Testing.BooseTesting.AppCircleTests
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppCircleTests
+  nameWithType: BooseTesting.AppCircleTests
+  fullName: Boose_Testing.BooseTesting.AppCircleTests
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCircleTests
+    name: AppCircleTests
+    href: Boose_Testing.BooseTesting.AppCircleTests.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCircleTests
+    name: AppCircleTests
+    href: Boose_Testing.BooseTesting.AppCircleTests.html
+- uid: Boose_Testing.BooseTesting.AppCommandTests
+  commentId: T:Boose_Testing.BooseTesting.AppCommandTests
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppCommandTests
+  nameWithType: BooseTesting.AppCommandTests
+  fullName: Boose_Testing.BooseTesting.AppCommandTests
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+- uid: Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+  commentId: T:Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppCommandTests.TestCommand
+  nameWithType: BooseTesting.AppCommandTests.TestCommand
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+    name: TestCommand
+    href: Boose_Testing.BooseTesting.AppCommandTests.TestCommand.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests.TestCommand
+    name: TestCommand
+    href: Boose_Testing.BooseTesting.AppCommandTests.TestCommand.html
+- uid: Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppCommandTests.TestVariable
+  nameWithType: BooseTesting.AppCommandTests.TestVariable
+  fullName: Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppCommandTests.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests
+    name: AppCommandTests
+    href: Boose_Testing.BooseTesting.AppCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppCommandTests.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppCommandTests.TestVariable.html
+- uid: Boose_Testing.BooseTesting.appcommand1test
+  commentId: T:Boose_Testing.BooseTesting.appcommand1test
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appcommand1test
+  nameWithType: BooseTesting.appcommand1test
+  fullName: Boose_Testing.BooseTesting.appcommand1test
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand1test
+    name: appcommand1test
+    href: Boose_Testing.BooseTesting.appcommand1test.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand1test
+    name: appcommand1test
+    href: Boose_Testing.BooseTesting.appcommand1test.html
+- uid: Boose_Testing.BooseTesting.appcommand2param
+  commentId: T:Boose_Testing.BooseTesting.appcommand2param
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appcommand2param
+  nameWithType: BooseTesting.appcommand2param
+  fullName: Boose_Testing.BooseTesting.appcommand2param
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand2param
+    name: appcommand2param
+    href: Boose_Testing.BooseTesting.appcommand2param.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand2param
+    name: appcommand2param
+    href: Boose_Testing.BooseTesting.appcommand2param.html
+- uid: Boose_Testing.BooseTesting.appcommand3param
+  commentId: T:Boose_Testing.BooseTesting.appcommand3param
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appcommand3param
+  nameWithType: BooseTesting.appcommand3param
+  fullName: Boose_Testing.BooseTesting.appcommand3param
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand3param
+    name: appcommand3param
+    href: Boose_Testing.BooseTesting.appcommand3param.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommand3param
+    name: appcommand3param
+    href: Boose_Testing.BooseTesting.appcommand3param.html
+- uid: Boose_Testing.BooseTesting.appcommandfactorytest
+  commentId: T:Boose_Testing.BooseTesting.appcommandfactorytest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appcommandfactorytest
+  nameWithType: BooseTesting.appcommandfactorytest
+  fullName: Boose_Testing.BooseTesting.appcommandfactorytest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommandfactorytest
+    name: appcommandfactorytest
+    href: Boose_Testing.BooseTesting.appcommandfactorytest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcommandfactorytest
+    name: appcommandfactorytest
+    href: Boose_Testing.BooseTesting.appcommandfactorytest.html
+- uid: Boose_Testing.BooseTesting.appcompoundcommandtest
+  commentId: T:Boose_Testing.BooseTesting.appcompoundcommandtest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appcompoundcommandtest
+  nameWithType: BooseTesting.appcompoundcommandtest
+  fullName: Boose_Testing.BooseTesting.appcompoundcommandtest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcompoundcommandtest
+    name: appcompoundcommandtest
+    href: Boose_Testing.BooseTesting.appcompoundcommandtest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appcompoundcommandtest
+    name: appcompoundcommandtest
+    href: Boose_Testing.BooseTesting.appcompoundcommandtest.html
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+  commentId: T:Boose_Testing.BooseTesting.AppcondtionalCommandtest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppcondtionalCommandtest
+  nameWithType: BooseTesting.AppcondtionalCommandtest
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  commentId: T:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+    name: AppConditionalCommandTests
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+    name: AppConditionalCommandTests
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html
+- uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  nameWithType: BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  fullName: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+    name: AppConditionalCommandTests
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest
+    name: AppcondtionalCommandtest
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests
+    name: AppConditionalCommandTests
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable.html
+- uid: Boose_Testing.BooseTesting.appelsetest
+  commentId: T:Boose_Testing.BooseTesting.appelsetest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appelsetest
+  nameWithType: BooseTesting.appelsetest
+  fullName: Boose_Testing.BooseTesting.appelsetest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appelsetest
+    name: appelsetest
+    href: Boose_Testing.BooseTesting.appelsetest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appelsetest
+    name: appelsetest
+    href: Boose_Testing.BooseTesting.appelsetest.html
+- uid: Boose_Testing.BooseTesting.appendtest
+  commentId: T:Boose_Testing.BooseTesting.appendtest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appendtest
+  nameWithType: BooseTesting.appendtest
+  fullName: Boose_Testing.BooseTesting.appendtest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appendtest
+    name: appendtest
+    href: Boose_Testing.BooseTesting.appendtest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appendtest
+    name: appendtest
+    href: Boose_Testing.BooseTesting.appendtest.html
+- uid: Boose_Testing.BooseTesting.appevaluationtest
+  commentId: T:Boose_Testing.BooseTesting.appevaluationtest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appevaluationtest
+  nameWithType: BooseTesting.appevaluationtest
+  fullName: Boose_Testing.BooseTesting.appevaluationtest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+- uid: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+  commentId: T:Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appevaluationtest.TestEvaluation
+  nameWithType: BooseTesting.appevaluationtest.TestEvaluation
+  fullName: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+    name: TestEvaluation
+    href: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation
+    name: TestEvaluation
+    href: Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation.html
+- uid: Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appevaluationtest.TestVariable
+  nameWithType: BooseTesting.appevaluationtest.TestVariable
+  fullName: Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.appevaluationtest.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest
+    name: appevaluationtest
+    href: Boose_Testing.BooseTesting.appevaluationtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appevaluationtest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.appevaluationtest.TestVariable.html
+- uid: Boose_Testing.BooseTesting.appiftest
+  commentId: T:Boose_Testing.BooseTesting.appiftest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appiftest
+  nameWithType: BooseTesting.appiftest
+  fullName: Boose_Testing.BooseTesting.appiftest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+- uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+  commentId: T:Boose_Testing.BooseTesting.appiftest.TestProgram
+  parent: Boose_Testing
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appiftest.TestProgram
+  nameWithType: BooseTesting.appiftest.TestProgram
+  fullName: Boose_Testing.BooseTesting.appiftest.TestProgram
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+    name: TestProgram
+    href: Boose_Testing.BooseTesting.appiftest.TestProgram.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+    name: TestProgram
+    href: Boose_Testing.BooseTesting.appiftest.TestProgram.html
+- uid: Boose_Testing.BooseTesting.appinttest
+  commentId: T:Boose_Testing.BooseTesting.appinttest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appinttest
+  nameWithType: BooseTesting.appinttest
+  fullName: Boose_Testing.BooseTesting.appinttest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest
+    name: appinttest
+    href: Boose_Testing.BooseTesting.appinttest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest
+    name: appinttest
+    href: Boose_Testing.BooseTesting.appinttest.html
+- uid: Boose_Testing.BooseTesting.appinttest.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.appinttest.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appinttest.TestVariable
+  nameWithType: BooseTesting.appinttest.TestVariable
+  fullName: Boose_Testing.BooseTesting.appinttest.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest
+    name: appinttest
+    href: Boose_Testing.BooseTesting.appinttest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.appinttest.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest
+    name: appinttest
+    href: Boose_Testing.BooseTesting.appinttest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appinttest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.appinttest.TestVariable.html
+- uid: Boose_Testing.BooseTesting.apprealtest
+  commentId: T:Boose_Testing.BooseTesting.apprealtest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.apprealtest
+  nameWithType: BooseTesting.apprealtest
+  fullName: Boose_Testing.BooseTesting.apprealtest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest
+    name: apprealtest
+    href: Boose_Testing.BooseTesting.apprealtest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest
+    name: apprealtest
+    href: Boose_Testing.BooseTesting.apprealtest.html
+- uid: Boose_Testing.BooseTesting.apprealtest.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.apprealtest.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.apprealtest.TestVariable
+  nameWithType: BooseTesting.apprealtest.TestVariable
+  fullName: Boose_Testing.BooseTesting.apprealtest.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest
+    name: apprealtest
+    href: Boose_Testing.BooseTesting.apprealtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.apprealtest.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest
+    name: apprealtest
+    href: Boose_Testing.BooseTesting.apprealtest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprealtest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.apprealtest.TestVariable.html
+- uid: Boose_Testing.BooseTesting.appbooltest
+  commentId: T:Boose_Testing.BooseTesting.appbooltest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appbooltest
+  nameWithType: BooseTesting.appbooltest
+  fullName: Boose_Testing.BooseTesting.appbooltest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appbooltest
+    name: appbooltest
+    href: Boose_Testing.BooseTesting.appbooltest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appbooltest
+    name: appbooltest
+    href: Boose_Testing.BooseTesting.appbooltest.html
+- uid: Boose_Testing.BooseTesting.AppPenColour
+  commentId: T:Boose_Testing.BooseTesting.AppPenColour
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppPenColour
+  nameWithType: BooseTesting.AppPenColour
+  fullName: Boose_Testing.BooseTesting.AppPenColour
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour
+    name: AppPenColour
+    href: Boose_Testing.BooseTesting.AppPenColour.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour
+    name: AppPenColour
+    href: Boose_Testing.BooseTesting.AppPenColour.html
+- uid: Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+  commentId: T:Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppPenColour.TestCanvas
+  nameWithType: BooseTesting.AppPenColour.TestCanvas
+  fullName: Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour
+    name: AppPenColour
+    href: Boose_Testing.BooseTesting.AppPenColour.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.AppPenColour.TestCanvas.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour
+    name: AppPenColour
+    href: Boose_Testing.BooseTesting.AppPenColour.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppPenColour.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.AppPenColour.TestCanvas.html
+- uid: Boose_Testing.BooseTesting.apprecttest
+  commentId: T:Boose_Testing.BooseTesting.apprecttest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.apprecttest
+  nameWithType: BooseTesting.apprecttest
+  fullName: Boose_Testing.BooseTesting.apprecttest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest
+    name: apprecttest
+    href: Boose_Testing.BooseTesting.apprecttest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest
+    name: apprecttest
+    href: Boose_Testing.BooseTesting.apprecttest.html
+- uid: Boose_Testing.BooseTesting.apprecttest.TestCanvas
+  commentId: T:Boose_Testing.BooseTesting.apprecttest.TestCanvas
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.apprecttest.TestCanvas
+  nameWithType: BooseTesting.apprecttest.TestCanvas
+  fullName: Boose_Testing.BooseTesting.apprecttest.TestCanvas
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest
+    name: apprecttest
+    href: Boose_Testing.BooseTesting.apprecttest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.apprecttest.TestCanvas.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest
+    name: apprecttest
+    href: Boose_Testing.BooseTesting.apprecttest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.apprecttest.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.apprecttest.TestCanvas.html
+- uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+  commentId: T:Boose_Testing.BooseTesting.AppStoredProgramTest
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppStoredProgramTest
+  nameWithType: BooseTesting.AppStoredProgramTest
+  fullName: Boose_Testing.BooseTesting.AppStoredProgramTest
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+- uid: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+  commentId: T:Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppStoredProgramTest.DummyCommand
+  nameWithType: BooseTesting.AppStoredProgramTest.DummyCommand
+  fullName: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+    name: DummyCommand
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand
+    name: DummyCommand
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand.html
+- uid: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+  commentId: T:Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppStoredProgramTest.ThrowingCommand
+  nameWithType: BooseTesting.AppStoredProgramTest.ThrowingCommand
+  fullName: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+    name: ThrowingCommand
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand
+    name: ThrowingCommand
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand.html
+- uid: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+  commentId: T:Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppStoredProgramTest.TestVariable
+  nameWithType: BooseTesting.AppStoredProgramTest.TestVariable
+  fullName: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest
+    name: AppStoredProgramTest
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable
+    name: TestVariable
+    href: Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable.html
+- uid: Boose_Testing.BooseTesting.AppWriteTests
+  commentId: T:Boose_Testing.BooseTesting.AppWriteTests
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppWriteTests
+  nameWithType: BooseTesting.AppWriteTests
+  fullName: Boose_Testing.BooseTesting.AppWriteTests
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests
+    name: AppWriteTests
+    href: Boose_Testing.BooseTesting.AppWriteTests.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests
+    name: AppWriteTests
+    href: Boose_Testing.BooseTesting.AppWriteTests.html
+- uid: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+  commentId: T:Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.AppWriteTests.TestCanvas
+  nameWithType: BooseTesting.AppWriteTests.TestCanvas
+  fullName: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests
+    name: AppWriteTests
+    href: Boose_Testing.BooseTesting.AppWriteTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests
+    name: AppWriteTests
+    href: Boose_Testing.BooseTesting.AppWriteTests.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas
+    name: TestCanvas
+    href: Boose_Testing.BooseTesting.AppWriteTests.TestCanvas.html
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing

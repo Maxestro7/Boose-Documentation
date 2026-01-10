@@ -1,0 +1,865 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.AppBool
+  commentId: T:Booze_Project.AppBool
+  id: AppBool
+  parent: Booze_Project
+  children:
+  - Booze_Project.AppBool.#ctor
+  - Booze_Project.AppBool.BoolValue
+  - Booze_Project.AppBool.Compile
+  - Booze_Project.AppBool.Execute
+  - Booze_Project.AppBool.boolvalue
+  langs:
+  - csharp
+  - vb
+  name: AppBool
+  nameWithType: AppBool
+  fullName: Booze_Project.AppBool
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppBool
+    path: ../Booze Project/AppBool.cs
+    startLine: 18
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Represents a boolean evaluation value in the application.
+
+    Inherits evaluation behavior from <xref href="Booze_Project.AppEvaluation" data-throw-if-not-resolved="false"></xref> and exposes a boolean view of the stored numeric value.
+  remarks: >-
+    The <xref href="Booze_Project.AppBool" data-throw-if-not-resolved="false"></xref> class converts the inherited <code>evaluatedexpression</code> into a boolean
+
+    and sets the underlying numeric <code>Value</code> to 1 for true and 0 for false. Instances are added
+
+    to the program variable list during <xref href="Booze_Project.AppBool.Compile" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class AppBool : AppEvaluation, IAppCommand'
+    content.vb: Public Class AppBool Inherits AppEvaluation Implements IAppCommand
+  inheritance:
+  - System.Object
+  - Booze_Project.AppCommand
+  - Booze_Project.AppEvaluation
+  derivedClasses:
+  - Booze_Project.AppConditionalCommand
+  implements:
+  - Booze_Project.IAppCommand
+  inheritedMembers:
+  - Booze_Project.AppEvaluation.varname
+  - Booze_Project.AppEvaluation.expression
+  - Booze_Project.AppEvaluation.evaluatedexpression
+  - Booze_Project.AppEvaluation.value
+  - Booze_Project.AppEvaluation.VarName
+  - Booze_Project.AppEvaluation.Value
+  - Booze_Project.AppEvaluation.Expression
+  - Booze_Project.AppEvaluation.checkparameters(System.String[])
+  - Booze_Project.AppCommand.program
+  - Booze_Project.AppCommand.parameterList
+  - Booze_Project.AppCommand.parameters
+  - Booze_Project.AppCommand.Program
+  - Booze_Project.AppCommand.name
+  - Booze_Project.AppCommand.ParameterList
+  - Booze_Project.AppCommand.Parameters
+  - Booze_Project.AppCommand.ProcessParameters(System.String)
+  - Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  - Booze_Project.AppCommand.paramhandler
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Booze_Project.AppBool.boolvalue
+  commentId: F:Booze_Project.AppBool.boolvalue
+  id: boolvalue
+  parent: Booze_Project.AppBool
+  langs:
+  - csharp
+  - vb
+  name: boolvalue
+  nameWithType: AppBool.boolvalue
+  fullName: Booze_Project.AppBool.boolvalue
+  type: Field
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: boolvalue
+    path: ../Booze Project/AppBool.cs
+    startLine: 25
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Backing field for <xref href="Booze_Project.AppBool.BoolValue" data-throw-if-not-resolved="false"></xref>.
+
+    The <code>new</code> modifier hides any base member with the same name.
+  example: []
+  syntax:
+    content: private bool boolvalue
+    return:
+      type: System.Boolean
+    content.vb: Private boolvalue As Boolean
+- uid: Booze_Project.AppBool.BoolValue
+  commentId: P:Booze_Project.AppBool.BoolValue
+  id: BoolValue
+  parent: Booze_Project.AppBool
+  langs:
+  - csharp
+  - vb
+  name: BoolValue
+  nameWithType: AppBool.BoolValue
+  fullName: Booze_Project.AppBool.BoolValue
+  type: Property
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: BoolValue
+    path: ../Booze Project/AppBool.cs
+    startLine: 31
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Gets or sets the boolean value represented by this evaluation.
+
+    Setting this property updates only the boolean view; numeric <code>Value</code> is updated in <xref href="Booze_Project.AppBool.Execute" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool BoolValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BoolValue As Boolean
+  overload: Booze_Project.AppBool.BoolValue*
+- uid: Booze_Project.AppBool.#ctor
+  commentId: M:Booze_Project.AppBool.#ctor
+  id: '#ctor'
+  parent: Booze_Project.AppBool
+  langs:
+  - csharp
+  - vb
+  name: AppBool()
+  nameWithType: AppBool.AppBool()
+  fullName: Booze_Project.AppBool.AppBool()
+  type: Constructor
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: .ctor
+    path: ../Booze Project/AppBool.cs
+    startLine: 40
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Parameterless constructor used by factories and deserializers.
+  example: []
+  syntax:
+    content: public AppBool()
+    content.vb: Public Sub New()
+  overload: Booze_Project.AppBool.#ctor*
+  nameWithType.vb: AppBool.New()
+  fullName.vb: Booze_Project.AppBool.New()
+  name.vb: New()
+- uid: Booze_Project.AppBool.Compile
+  commentId: M:Booze_Project.AppBool.Compile
+  id: Compile
+  parent: Booze_Project.AppBool
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: AppBool.Compile()
+  fullName: Booze_Project.AppBool.Compile()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Compile
+    path: ../Booze Project/AppBool.cs
+    startLine: 46
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Compiles the boolean evaluation and registers it with the containing <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref>.
+
+    Calls <code>base.Compile()</code> to perform base-class compilation then adds this variable to the program.
+  example: []
+  syntax:
+    content: public override void Compile()
+    content.vb: Public Overrides Sub Compile()
+  overridden: Booze_Project.AppEvaluation.Compile
+  overload: Booze_Project.AppBool.Compile*
+- uid: Booze_Project.AppBool.Execute
+  commentId: M:Booze_Project.AppBool.Execute
+  id: Execute
+  parent: Booze_Project.AppBool
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: AppBool.Execute()
+  fullName: Booze_Project.AppBool.Execute()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppBool.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute
+    path: ../Booze Project/AppBool.cs
+    startLine: 57
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Evaluates the boolean expression and updates the stored numeric and boolean representations.
+
+    If <code>evaluatedexpression</code> equals <code>true</code>, Value is set to 1 and <xref href="Booze_Project.AppBool.BoolValue" data-throw-if-not-resolved="false"></xref> to true;
+
+    if it equals <code>false</code>, Value is set to 0 and <xref href="Booze_Project.AppBool.BoolValue" data-throw-if-not-resolved="false"></xref> to false.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: Booze_Project.AppEvaluation.Execute
+  overload: Booze_Project.AppBool.Execute*
+references:
+- uid: Booze_Project.AppEvaluation
+  commentId: T:Booze_Project.AppEvaluation
+  parent: Booze_Project
+  href: Booze_Project.AppEvaluation.html
+  name: AppEvaluation
+  nameWithType: AppEvaluation
+  fullName: Booze_Project.AppEvaluation
+- uid: Booze_Project.AppBool
+  commentId: T:Booze_Project.AppBool
+  parent: Booze_Project
+  href: Booze_Project.AppBool.html
+  name: AppBool
+  nameWithType: AppBool
+  fullName: Booze_Project.AppBool
+- uid: Booze_Project.AppBool.Compile
+  commentId: M:Booze_Project.AppBool.Compile
+  parent: Booze_Project.AppBool
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_Compile
+  name: Compile()
+  nameWithType: AppBool.Compile()
+  fullName: Booze_Project.AppBool.Compile()
+  spec.csharp:
+  - uid: Booze_Project.AppBool.Compile
+    name: Compile
+    href: Booze_Project.AppBool.html#Booze_Project_AppBool_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppBool.Compile
+    name: Compile
+    href: Booze_Project.AppBool.html#Booze_Project_AppBool_Compile
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Booze_Project.AppCommand
+  commentId: T:Booze_Project.AppCommand
+  parent: Booze_Project
+  href: Booze_Project.AppCommand.html
+  name: AppCommand
+  nameWithType: AppCommand
+  fullName: Booze_Project.AppCommand
+- uid: Booze_Project.IAppCommand
+  commentId: T:Booze_Project.IAppCommand
+  parent: Booze_Project
+  href: Booze_Project.IAppCommand.html
+  name: IAppCommand
+  nameWithType: IAppCommand
+  fullName: Booze_Project.IAppCommand
+- uid: Booze_Project.AppEvaluation.varname
+  commentId: F:Booze_Project.AppEvaluation.varname
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_varname
+  name: varname
+  nameWithType: AppEvaluation.varname
+  fullName: Booze_Project.AppEvaluation.varname
+- uid: Booze_Project.AppEvaluation.expression
+  commentId: F:Booze_Project.AppEvaluation.expression
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_expression
+  name: expression
+  nameWithType: AppEvaluation.expression
+  fullName: Booze_Project.AppEvaluation.expression
+- uid: Booze_Project.AppEvaluation.evaluatedexpression
+  commentId: F:Booze_Project.AppEvaluation.evaluatedexpression
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_evaluatedexpression
+  name: evaluatedexpression
+  nameWithType: AppEvaluation.evaluatedexpression
+  fullName: Booze_Project.AppEvaluation.evaluatedexpression
+- uid: Booze_Project.AppEvaluation.value
+  commentId: F:Booze_Project.AppEvaluation.value
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_value
+  name: value
+  nameWithType: AppEvaluation.value
+  fullName: Booze_Project.AppEvaluation.value
+- uid: Booze_Project.AppEvaluation.VarName
+  commentId: P:Booze_Project.AppEvaluation.VarName
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_VarName
+  name: VarName
+  nameWithType: AppEvaluation.VarName
+  fullName: Booze_Project.AppEvaluation.VarName
+- uid: Booze_Project.AppEvaluation.Value
+  commentId: P:Booze_Project.AppEvaluation.Value
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Value
+  name: Value
+  nameWithType: AppEvaluation.Value
+  fullName: Booze_Project.AppEvaluation.Value
+- uid: Booze_Project.AppEvaluation.Expression
+  commentId: P:Booze_Project.AppEvaluation.Expression
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Expression
+  name: Expression
+  nameWithType: AppEvaluation.Expression
+  fullName: Booze_Project.AppEvaluation.Expression
+- uid: Booze_Project.AppEvaluation.checkparameters(System.String[])
+  commentId: M:Booze_Project.AppEvaluation.checkparameters(System.String[])
+  parent: Booze_Project.AppEvaluation
+  isExternal: true
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_checkparameters_System_String___
+  name: checkparameters(string[])
+  nameWithType: AppEvaluation.checkparameters(string[])
+  fullName: Booze_Project.AppEvaluation.checkparameters(string[])
+  nameWithType.vb: AppEvaluation.checkparameters(String())
+  fullName.vb: Booze_Project.AppEvaluation.checkparameters(String())
+  name.vb: checkparameters(String())
+  spec.csharp:
+  - uid: Booze_Project.AppEvaluation.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppEvaluation.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Booze_Project.AppCommand.program
+  commentId: F:Booze_Project.AppCommand.program
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_program
+  name: program
+  nameWithType: AppCommand.program
+  fullName: Booze_Project.AppCommand.program
+- uid: Booze_Project.AppCommand.parameterList
+  commentId: F:Booze_Project.AppCommand.parameterList
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameterList
+  name: parameterList
+  nameWithType: AppCommand.parameterList
+  fullName: Booze_Project.AppCommand.parameterList
+- uid: Booze_Project.AppCommand.parameters
+  commentId: F:Booze_Project.AppCommand.parameters
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameters
+  name: parameters
+  nameWithType: AppCommand.parameters
+  fullName: Booze_Project.AppCommand.parameters
+- uid: Booze_Project.AppCommand.Program
+  commentId: P:Booze_Project.AppCommand.Program
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Program
+  name: Program
+  nameWithType: AppCommand.Program
+  fullName: Booze_Project.AppCommand.Program
+- uid: Booze_Project.AppCommand.name
+  commentId: P:Booze_Project.AppCommand.name
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_name
+  name: name
+  nameWithType: AppCommand.name
+  fullName: Booze_Project.AppCommand.name
+- uid: Booze_Project.AppCommand.ParameterList
+  commentId: P:Booze_Project.AppCommand.ParameterList
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ParameterList
+  name: ParameterList
+  nameWithType: AppCommand.ParameterList
+  fullName: Booze_Project.AppCommand.ParameterList
+- uid: Booze_Project.AppCommand.Parameters
+  commentId: P:Booze_Project.AppCommand.Parameters
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Parameters
+  name: Parameters
+  nameWithType: AppCommand.Parameters
+  fullName: Booze_Project.AppCommand.Parameters
+- uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+  commentId: M:Booze_Project.AppCommand.ProcessParameters(System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  name: ProcessParameters(string)
+  nameWithType: AppCommand.ProcessParameters(string)
+  fullName: Booze_Project.AppCommand.ProcessParameters(string)
+  nameWithType.vb: AppCommand.ProcessParameters(String)
+  fullName.vb: Booze_Project.AppCommand.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  commentId: M:Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  name: set(AppStoredProgram, string)
+  nameWithType: AppCommand.set(AppStoredProgram, string)
+  fullName: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, string)
+  nameWithType.vb: AppCommand.set(AppStoredProgram, String)
+  fullName.vb: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, String)
+  name.vb: set(AppStoredProgram, String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Booze_Project.AppCommand.paramhandler
+  commentId: M:Booze_Project.AppCommand.paramhandler
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  name: paramhandler()
+  nameWithType: AppCommand.paramhandler()
+  fullName: Booze_Project.AppCommand.paramhandler()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.AppBool.BoolValue
+  commentId: P:Booze_Project.AppBool.BoolValue
+  parent: Booze_Project.AppBool
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_BoolValue
+  name: BoolValue
+  nameWithType: AppBool.BoolValue
+  fullName: Booze_Project.AppBool.BoolValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Booze_Project.AppBool.Execute
+  commentId: M:Booze_Project.AppBool.Execute
+  parent: Booze_Project.AppBool
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_Execute
+  name: Execute()
+  nameWithType: AppBool.Execute()
+  fullName: Booze_Project.AppBool.Execute()
+  spec.csharp:
+  - uid: Booze_Project.AppBool.Execute
+    name: Execute
+    href: Booze_Project.AppBool.html#Booze_Project_AppBool_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppBool.Execute
+    name: Execute
+    href: Booze_Project.AppBool.html#Booze_Project_AppBool_Execute
+  - name: (
+  - name: )
+- uid: Booze_Project.AppBool.BoolValue*
+  commentId: Overload:Booze_Project.AppBool.BoolValue
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_BoolValue
+  name: BoolValue
+  nameWithType: AppBool.BoolValue
+  fullName: Booze_Project.AppBool.BoolValue
+- uid: Booze_Project.AppBool.#ctor*
+  commentId: Overload:Booze_Project.AppBool.#ctor
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool__ctor
+  name: AppBool
+  nameWithType: AppBool.AppBool
+  fullName: Booze_Project.AppBool.AppBool
+  nameWithType.vb: AppBool.New
+  fullName.vb: Booze_Project.AppBool.New
+  name.vb: New
+- uid: Booze_Project.AppStoredProgram
+  commentId: T:Booze_Project.AppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: Booze_Project.AppStoredProgram
+- uid: Booze_Project.AppEvaluation.Compile
+  commentId: M:Booze_Project.AppEvaluation.Compile
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Compile
+  name: Compile()
+  nameWithType: AppEvaluation.Compile()
+  fullName: Booze_Project.AppEvaluation.Compile()
+  spec.csharp:
+  - uid: Booze_Project.AppEvaluation.Compile
+    name: Compile
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppEvaluation.Compile
+    name: Compile
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Compile
+  - name: (
+  - name: )
+- uid: Booze_Project.AppBool.Compile*
+  commentId: Overload:Booze_Project.AppBool.Compile
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_Compile
+  name: Compile
+  nameWithType: AppBool.Compile
+  fullName: Booze_Project.AppBool.Compile
+- uid: Booze_Project.AppEvaluation.Execute
+  commentId: M:Booze_Project.AppEvaluation.Execute
+  parent: Booze_Project.AppEvaluation
+  href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Execute
+  name: Execute()
+  nameWithType: AppEvaluation.Execute()
+  fullName: Booze_Project.AppEvaluation.Execute()
+  spec.csharp:
+  - uid: Booze_Project.AppEvaluation.Execute
+    name: Execute
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppEvaluation.Execute
+    name: Execute
+    href: Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Execute
+  - name: (
+  - name: )
+- uid: Booze_Project.AppBool.Execute*
+  commentId: Overload:Booze_Project.AppBool.Execute
+  href: Booze_Project.AppBool.html#Booze_Project_AppBool_Execute
+  name: Execute
+  nameWithType: AppBool.Execute
+  fullName: Booze_Project.AppBool.Execute

@@ -1,0 +1,1014 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing.BooseTesting.AppCanvasTests
+  commentId: T:Boose_Testing.BooseTesting.AppCanvasTests
+  id: BooseTesting.AppCanvasTests
+  parent: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+  - Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest
+  - Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest
+  - Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest
+  - Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+  - Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+  - Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour
+  - Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+  - Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+  langs:
+  - csharp
+  - vb
+  name: BooseTesting.AppCanvasTests
+  nameWithType: BooseTesting.AppCanvasTests
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppCanvasTests
+    path: ../Boose Testing/Test1.cs
+    startLine: 20
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the pen position to the supplied coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseTesting.AppCanvasTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseTesting.AppCanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest
+  id: MoveTotest
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: MoveTotest()
+  nameWithType: BooseTesting.AppCanvasTests.MoveTotest()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: MoveTotest
+    path: ../Boose Testing/Test1.cs
+    startLine: 26
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the pen position to the supplied coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MoveTotest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MoveTotest()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest
+  id: DrawTotest
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: DrawTotest()
+  nameWithType: BooseTesting.AppCanvasTests.DrawTotest()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: DrawTotest
+    path: ../Boose Testing/Test1.cs
+    startLine: 41
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Verifies that <xref href="Booze_Project.AppCanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> draws from the current pen position to the supplied coordinates
+
+    and updates the pen position to the destination coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void DrawTotest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub DrawTotest()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest
+  id: MultiLineTest
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: MultiLineTest()
+  nameWithType: BooseTesting.AppCanvasTests.MultiLineTest()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: MultiLineTest
+    path: ../Boose Testing/Test1.cs
+    startLine: 58
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Executes a sequence of canvas operations (MoveTo, Circle, Rect) and asserts that the final pen position
+
+    equals the last explicit MoveTo call in the sequence.
+
+    Ensures drawing operations do not unexpectedly modify the pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MultiLineTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MultiLineTest()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+  id: CircleDoesNotChangePenPosition
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: CircleDoesNotChangePenPosition()
+  nameWithType: BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: CircleDoesNotChangePenPosition
+    path: ../Boose Testing/Test1.cs
+    startLine: 78
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.Circle(System.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> does not change the pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CircleDoesNotChangePenPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CircleDoesNotChangePenPosition()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+  id: RectDoesNotChangePenPosition
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: RectDoesNotChangePenPosition()
+  nameWithType: BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: RectDoesNotChangePenPosition
+    path: ../Boose Testing/Test1.cs
+    startLine: 93
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.Rect(System.Int32%2cSystem.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> does not change the pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void RectDoesNotChangePenPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub RectDoesNotChangePenPosition()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+  id: WriteTextDoesNotChangePenPosition
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: WriteTextDoesNotChangePenPosition()
+  nameWithType: BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: WriteTextDoesNotChangePenPosition
+    path: ../Boose Testing/Test1.cs
+    startLine: 108
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.WriteText(System.String)" data-throw-if-not-resolved="false"></xref> does not change the pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void WriteTextDoesNotChangePenPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub WriteTextDoesNotChangePenPosition()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+  id: ResetRestoresDefaultPosition
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ResetRestoresDefaultPosition()
+  nameWithType: BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: ResetRestoresDefaultPosition
+    path: ../Boose Testing/Test1.cs
+    startLine: 123
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.Reset" data-throw-if-not-resolved="false"></xref> restores the default pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ResetRestoresDefaultPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ResetRestoresDefaultPosition()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+  id: SetResizesAndPreservesContents
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: SetResizesAndPreservesContents()
+  nameWithType: BooseTesting.AppCanvasTests.SetResizesAndPreservesContents()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: SetResizesAndPreservesContents
+    path: ../Boose Testing/Test1.cs
+    startLine: 138
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.Set(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> resizes the canvas while preserving existing pixel content.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetResizesAndPreservesContents()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetResizesAndPreservesContents()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour
+  commentId: M:Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour
+  id: SetColourUpdatesPenColour
+  parent: Boose_Testing.BooseTesting.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: SetColourUpdatesPenColour()
+  nameWithType: BooseTesting.AppCanvasTests.SetColourUpdatesPenColour()
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: SetColourUpdatesPenColour
+    path: ../Boose Testing/Test1.cs
+    startLine: 156
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that <xref href="Booze_Project.AppCanvas.SetColour(System.Int32%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the pen colour correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetColourUpdatesPenColour()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetColourUpdatesPenColour()
+  overload: Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: Booze_Project.AppCanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:Booze_Project.AppCanvas.MoveTo(System.Int32,System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: AppCanvas.MoveTo(int, int)
+  fullName: Booze_Project.AppCanvas.MoveTo(int, int)
+  nameWithType.vb: AppCanvas.MoveTo(Integer, Integer)
+  fullName.vb: Booze_Project.AppCanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_MoveTotest
+  name: MoveTotest
+  nameWithType: BooseTesting.AppCanvasTests.MoveTotest
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.MoveTotest
+- uid: Booze_Project.AppCanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:Booze_Project.AppCanvas.DrawTo(System.Int32,System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: AppCanvas.DrawTo(int, int)
+  fullName: Booze_Project.AppCanvas.DrawTo(int, int)
+  nameWithType.vb: AppCanvas.DrawTo(Integer, Integer)
+  fullName.vb: Booze_Project.AppCanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_DrawTotest
+  name: DrawTotest
+  nameWithType: BooseTesting.AppCanvasTests.DrawTotest
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.DrawTotest
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_MultiLineTest
+  name: MultiLineTest
+  nameWithType: BooseTesting.AppCanvasTests.MultiLineTest
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.MultiLineTest
+- uid: Booze_Project.AppCanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:Booze_Project.AppCanvas.Circle(System.Int32,System.Boolean)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Circle(int, bool)
+  nameWithType: AppCanvas.Circle(int, bool)
+  fullName: Booze_Project.AppCanvas.Circle(int, bool)
+  nameWithType.vb: AppCanvas.Circle(Integer, Boolean)
+  fullName.vb: Booze_Project.AppCanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_CircleDoesNotChangePenPosition
+  name: CircleDoesNotChangePenPosition
+  nameWithType: BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.CircleDoesNotChangePenPosition
+- uid: Booze_Project.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Booze_Project.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rect(int, int, bool)
+  nameWithType: AppCanvas.Rect(int, int, bool)
+  fullName: Booze_Project.AppCanvas.Rect(int, int, bool)
+  nameWithType.vb: AppCanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: Booze_Project.AppCanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_RectDoesNotChangePenPosition
+  name: RectDoesNotChangePenPosition
+  nameWithType: BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.RectDoesNotChangePenPosition
+- uid: Booze_Project.AppCanvas.WriteText(System.String)
+  commentId: M:Booze_Project.AppCanvas.WriteText(System.String)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteText(string)
+  nameWithType: AppCanvas.WriteText(string)
+  fullName: Booze_Project.AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+  fullName.vb: Booze_Project.AppCanvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.WriteText(System.String)
+    name: WriteText
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.WriteText(System.String)
+    name: WriteText
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_WriteTextDoesNotChangePenPosition
+  name: WriteTextDoesNotChangePenPosition
+  nameWithType: BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.WriteTextDoesNotChangePenPosition
+- uid: Booze_Project.AppCanvas.Reset
+  commentId: M:Booze_Project.AppCanvas.Reset
+  name: Reset()
+  nameWithType: AppCanvas.Reset()
+  fullName: Booze_Project.AppCanvas.Reset()
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.Reset
+    name: Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.Reset
+    name: Reset
+  - name: (
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_ResetRestoresDefaultPosition
+  name: ResetRestoresDefaultPosition
+  nameWithType: BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.ResetRestoresDefaultPosition
+- uid: Booze_Project.AppCanvas.Set(System.Int32,System.Int32)
+  commentId: M:Booze_Project.AppCanvas.Set(System.Int32,System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Set(int, int)
+  nameWithType: AppCanvas.Set(int, int)
+  fullName: Booze_Project.AppCanvas.Set(int, int)
+  nameWithType.vb: AppCanvas.Set(Integer, Integer)
+  fullName.vb: Booze_Project.AppCanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_SetResizesAndPreservesContents
+  name: SetResizesAndPreservesContents
+  nameWithType: BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.SetResizesAndPreservesContents
+- uid: Booze_Project.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:Booze_Project.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetColour(int, int, int)
+  nameWithType: AppCanvas.SetColour(int, int, int)
+  fullName: Booze_Project.AppCanvas.SetColour(int, int, int)
+  nameWithType.vb: AppCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: Booze_Project.AppCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Booze_Project.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour
+  href: Boose_Testing.BooseTesting.AppCanvasTests.html#Boose_Testing_BooseTesting_AppCanvasTests_SetColourUpdatesPenColour
+  name: SetColourUpdatesPenColour
+  nameWithType: BooseTesting.AppCanvasTests.SetColourUpdatesPenColour
+  fullName: Boose_Testing.BooseTesting.AppCanvasTests.SetColourUpdatesPenColour

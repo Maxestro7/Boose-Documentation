@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing.BooseTesting.AppCircleTests
+  commentId: T:Boose_Testing.BooseTesting.AppCircleTests
+  id: BooseTesting.AppCircleTests
+  parent: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  - Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  langs:
+  - csharp
+  - vb
+  name: BooseTesting.AppCircleTests
+  nameWithType: BooseTesting.AppCircleTests
+  fullName: Boose_Testing.BooseTesting.AppCircleTests
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppCircleTests
+    path: ../Boose Testing/Test1.cs
+    startLine: 168
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseTesting.AppCircleTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseTesting.AppCircleTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  commentId: M:Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  id: Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  parent: Boose_Testing.BooseTesting.AppCircleTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen()
+  nameWithType: BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen()
+  fullName: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+    path: ../Boose Testing/Test1.cs
+    startLine: 177
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Creates an instance of the internal `Booze_Project.AppCircle` via reflection,
+
+    attaches it to an <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref> with a real <xref href="Booze_Project.AppCanvas" data-throw-if-not-resolved="false"></xref>,
+
+    and executes a valid radius.
+
+    Verifies no exception is thrown and the canvas pen position is unchanged by the circle command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen()
+  overload: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  commentId: M:Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  id: Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  parent: Boose_Testing.BooseTesting.AppCircleTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WithRadiusLessThanOne_ThrowsCanvasException()
+  nameWithType: BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException()
+  fullName: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_WithRadiusLessThanOne_ThrowsCanvasException
+    path: ../Boose Testing/Test1.cs
+    startLine: 206
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Verifies that <code>AppCircle</code> rejects radii less than 1
+
+    by throwing a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WithRadiusLessThanOne_ThrowsCanvasException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WithRadiusLessThanOne_ThrowsCanvasException()
+  overload: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.AppStoredProgram
+  commentId: T:Booze_Project.AppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: Booze_Project.AppStoredProgram
+- uid: Booze_Project.AppCanvas
+  commentId: T:Booze_Project.AppCanvas
+  parent: Booze_Project
+  href: Booze_Project.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: Booze_Project.AppCanvas
+- uid: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  href: Boose_Testing.BooseTesting.AppCircleTests.html#Boose_Testing_BooseTesting_AppCircleTests_Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  name: Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  nameWithType: BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+  fullName: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithValidRadius_DoesNotThrowAndDoesNotMovePen
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: BOOSE.CanvasException
+  commentId: T:BOOSE.CanvasException
+  parent: BOOSE
+  isExternal: true
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSE.CanvasException
+- uid: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException*
+  commentId: Overload:Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  href: Boose_Testing.BooseTesting.AppCircleTests.html#Boose_Testing_BooseTesting_AppCircleTests_Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  name: Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  nameWithType: BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+  fullName: Boose_Testing.BooseTesting.AppCircleTests.Execute_WithRadiusLessThanOne_ThrowsCanvasException
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE

@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.IAppCommand
+  commentId: T:Booze_Project.IAppCommand
+  id: IAppCommand
+  parent: Booze_Project
+  children:
+  - Booze_Project.IAppCommand.Compile
+  - Booze_Project.IAppCommand.Execute
+  - Booze_Project.IAppCommand.checkparameters(System.String[])
+  - Booze_Project.IAppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAppCommand
+  nameWithType: IAppCommand
+  fullName: Booze_Project.IAppCommand
+  type: Interface
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppCommand.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: IAppCommand
+    path: ../Booze Project/IAppCommand.cs
+    startLine: 12
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Defines the contract for application command objects.
+
+    Implementations represent executable program statements that can be compiled, validated and executed within an <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface IAppCommand
+    content.vb: Public Interface IAppCommand
+- uid: Booze_Project.IAppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  commentId: M:Booze_Project.IAppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  id: set(Booze_Project.AppStoredProgram,System.String)
+  parent: Booze_Project.IAppCommand
+  langs:
+  - csharp
+  - vb
+  name: set(AppStoredProgram, string)
+  nameWithType: IAppCommand.set(AppStoredProgram, string)
+  fullName: Booze_Project.IAppCommand.set(Booze_Project.AppStoredProgram, string)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppCommand.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: set
+    path: ../Booze Project/IAppCommand.cs
+    startLine: 19
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Assigns the hosting program and the raw parameter string to the command, and typically registers the command with the program.
+  example: []
+  syntax:
+    content: void set(AppStoredProgram Program, string Params)
+    parameters:
+    - id: Program
+      type: Booze_Project.AppStoredProgram
+      description: The <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref> that will own and execute the command.
+    - id: Params
+      type: System.String
+      description: Raw parameter text (usually a comma-separated or space-separated parameter list) provided by the parser.
+    content.vb: Sub [set](Program As AppStoredProgram, Params As String)
+  overload: Booze_Project.IAppCommand.set*
+  nameWithType.vb: IAppCommand.set(AppStoredProgram, String)
+  fullName.vb: Booze_Project.IAppCommand.set(Booze_Project.AppStoredProgram, String)
+  name.vb: set(AppStoredProgram, String)
+- uid: Booze_Project.IAppCommand.Compile
+  commentId: M:Booze_Project.IAppCommand.Compile
+  id: Compile
+  parent: Booze_Project.IAppCommand
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: IAppCommand.Compile()
+  fullName: Booze_Project.IAppCommand.Compile()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppCommand.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Compile
+    path: ../Booze Project/IAppCommand.cs
+    startLine: 25
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Performs compile-time preparation and validation for the command.
+
+    Typical responsibilities include parsing the parameter list, resolving parameter counts and registering any declarations with the program.
+  example: []
+  syntax:
+    content: void Compile()
+    content.vb: Sub Compile()
+  overload: Booze_Project.IAppCommand.Compile*
+- uid: Booze_Project.IAppCommand.Execute
+  commentId: M:Booze_Project.IAppCommand.Execute
+  id: Execute
+  parent: Booze_Project.IAppCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: IAppCommand.Execute()
+  fullName: Booze_Project.IAppCommand.Execute()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppCommand.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute
+    path: ../Booze Project/IAppCommand.cs
+    startLine: 31
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Executes the command's runtime behaviour.
+
+    Implementations should rely on the hosting <xref href="Booze_Project.AppStoredProgram" data-throw-if-not-resolved="false"></xref> for expression evaluation and variable access.
+  example: []
+  syntax:
+    content: void Execute()
+    content.vb: Sub Execute()
+  overload: Booze_Project.IAppCommand.Execute*
+- uid: Booze_Project.IAppCommand.checkparameters(System.String[])
+  commentId: M:Booze_Project.IAppCommand.checkparameters(System.String[])
+  id: checkparameters(System.String[])
+  parent: Booze_Project.IAppCommand
+  langs:
+  - csharp
+  - vb
+  name: checkparameters(string[])
+  nameWithType: IAppCommand.checkparameters(string[])
+  fullName: Booze_Project.IAppCommand.checkparameters(string[])
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/IAppCommand.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: checkparameters
+    path: ../Booze Project/IAppCommand.cs
+    startLine: 38
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Validates the parsed parameter array for this command.
+
+    Called during compilation to ensure the supplied parameters are correct (count, types or syntax) for the concrete command.
+  example: []
+  syntax:
+    content: void checkparameters(string[] Parameters)
+    parameters:
+    - id: Parameters
+      type: System.String[]
+      description: Array of parsed parameter tokens to validate.
+    content.vb: Sub checkparameters(Parameters As String())
+  overload: Booze_Project.IAppCommand.checkparameters*
+  nameWithType.vb: IAppCommand.checkparameters(String())
+  fullName.vb: Booze_Project.IAppCommand.checkparameters(String())
+  name.vb: checkparameters(String())
+references:
+- uid: Booze_Project.AppStoredProgram
+  commentId: T:Booze_Project.AppStoredProgram
+  parent: Booze_Project
+  href: Booze_Project.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: Booze_Project.AppStoredProgram
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: Booze_Project.IAppCommand.set*
+  commentId: Overload:Booze_Project.IAppCommand.set
+  href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  name: set
+  nameWithType: IAppCommand.set
+  fullName: Booze_Project.IAppCommand.set
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.IAppCommand.Compile*
+  commentId: Overload:Booze_Project.IAppCommand.Compile
+  href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_Compile
+  name: Compile
+  nameWithType: IAppCommand.Compile
+  fullName: Booze_Project.IAppCommand.Compile
+- uid: Booze_Project.IAppCommand.Execute*
+  commentId: Overload:Booze_Project.IAppCommand.Execute
+  href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_Execute
+  name: Execute
+  nameWithType: IAppCommand.Execute
+  fullName: Booze_Project.IAppCommand.Execute
+- uid: Booze_Project.IAppCommand.checkparameters*
+  commentId: Overload:Booze_Project.IAppCommand.checkparameters
+  href: Booze_Project.IAppCommand.html#Booze_Project_IAppCommand_checkparameters_System_String___
+  name: checkparameters
+  nameWithType: IAppCommand.checkparameters
+  fullName: Booze_Project.IAppCommand.checkparameters
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

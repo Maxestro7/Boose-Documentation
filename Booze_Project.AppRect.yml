@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: Booze_Project.AppRect
+  commentId: T:Booze_Project.AppRect
+  id: AppRect
+  parent: Booze_Project
+  children:
+  - Booze_Project.AppRect.#ctor
+  - Booze_Project.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  - Booze_Project.AppRect.Execute
+  - Booze_Project.AppRect.height
+  - Booze_Project.AppRect.width
+  langs:
+  - csharp
+  - vb
+  name: AppRect
+  nameWithType: AppRect
+  fullName: Booze_Project.AppRect
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: AppRect
+    path: ../Booze Project/AppRect.cs
+    startLine: 19
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Application implementation of the <code>rect</code> command.
+
+    Validates two integer parameters (width and height) and instructs the configured canvas to draw a rectangle.
+  remarks: >-
+    Inherits from <xref href="Booze_Project.AppCommand2Param" data-throw-if-not-resolved="false"></xref>, the application-level two-parameter command base.
+
+    Parameters are resolved via <xref href="Booze_Project.AppCommand.paramhandler" data-throw-if-not-resolved="false"></xref> which looks up variables or parses numeric literals.
+
+    On successful validation the command calls <code>canvas.Rect(width, height, false)</code>.
+  example: []
+  syntax:
+    content: 'internal class AppRect : AppCommand2Param, IAppCommand'
+    content.vb: Friend Class AppRect Inherits AppCommand2Param Implements IAppCommand
+  inheritance:
+  - System.Object
+  - Booze_Project.AppCommand
+  - Booze_Project.AppCanvasCommand
+  - Booze_Project.AppCommand1Param
+  - Booze_Project.AppCommand2Param
+  implements:
+  - Booze_Project.IAppCommand
+  inheritedMembers:
+  - Booze_Project.AppCommand2Param.checkparameters(System.String[])
+  - Booze_Project.AppCanvasCommand.xPos
+  - Booze_Project.AppCanvasCommand.yPos
+  - Booze_Project.AppCanvasCommand.canvas
+  - Booze_Project.AppCanvasCommand.Canvas
+  - Booze_Project.AppCommand.program
+  - Booze_Project.AppCommand.parameterList
+  - Booze_Project.AppCommand.parameters
+  - Booze_Project.AppCommand.Program
+  - Booze_Project.AppCommand.name
+  - Booze_Project.AppCommand.ParameterList
+  - Booze_Project.AppCommand.Parameters
+  - Booze_Project.AppCommand.Compile
+  - Booze_Project.AppCommand.ProcessParameters(System.String)
+  - Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  - Booze_Project.AppCommand.paramhandler
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Booze_Project.AppRect.width
+  commentId: F:Booze_Project.AppRect.width
+  id: width
+  parent: Booze_Project.AppRect
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: AppRect.width
+  fullName: Booze_Project.AppRect.width
+  type: Field
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: width
+    path: ../Booze Project/AppRect.cs
+    startLine: 24
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Width of the rectangle in pixels. Populated from the parsed parameter list during <xref href="Booze_Project.AppRect.Execute" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: private int width
+    return:
+      type: System.Int32
+    content.vb: Private width As Integer
+- uid: Booze_Project.AppRect.height
+  commentId: F:Booze_Project.AppRect.height
+  id: height
+  parent: Booze_Project.AppRect
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: AppRect.height
+  fullName: Booze_Project.AppRect.height
+  type: Field
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: height
+    path: ../Booze Project/AppRect.cs
+    startLine: 29
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Height of the rectangle in pixels. Populated from the parsed parameter list during <xref href="Booze_Project.AppRect.Execute" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: private int height
+    return:
+      type: System.Int32
+    content.vb: Private height As Integer
+- uid: Booze_Project.AppRect.#ctor
+  commentId: M:Booze_Project.AppRect.#ctor
+  id: '#ctor'
+  parent: Booze_Project.AppRect
+  langs:
+  - csharp
+  - vb
+  name: AppRect()
+  nameWithType: AppRect.AppRect()
+  fullName: Booze_Project.AppRect.AppRect()
+  type: Constructor
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: .ctor
+    path: ../Booze Project/AppRect.cs
+    startLine: 34
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: Parameterless constructor required for factories and deserialization.
+  example: []
+  syntax:
+    content: public AppRect()
+    content.vb: Public Sub New()
+  overload: Booze_Project.AppRect.#ctor*
+  nameWithType.vb: AppRect.New()
+  fullName.vb: Booze_Project.AppRect.New()
+  name.vb: New()
+- uid: Booze_Project.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  commentId: M:Booze_Project.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  id: '#ctor(BOOSE.Canvas,System.Int32,System.Int32)'
+  parent: Booze_Project.AppRect
+  langs:
+  - csharp
+  - vb
+  name: AppRect(Canvas, int, int)
+  nameWithType: AppRect.AppRect(Canvas, int, int)
+  fullName: Booze_Project.AppRect.AppRect(BOOSE.Canvas, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: .ctor
+    path: ../Booze Project/AppRect.cs
+    startLine: 43
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Convenience constructor that initializes an instance with a specific canvas and dimensions.
+
+    Primarily useful for testing; at runtime dimensions are taken from the parsed parameter list.
+  example: []
+  syntax:
+    content: public AppRect(Canvas c, int width, int height)
+    parameters:
+    - id: c
+      type: BOOSE.Canvas
+      description: Canvas instance on which the rectangle will be drawn.
+    - id: width
+      type: System.Int32
+      description: Initial width of the rectangle.
+    - id: height
+      type: System.Int32
+      description: Initial height of the rectangle.
+    content.vb: Public Sub New(c As Canvas, width As Integer, height As Integer)
+  overload: Booze_Project.AppRect.#ctor*
+  nameWithType.vb: AppRect.New(Canvas, Integer, Integer)
+  fullName.vb: Booze_Project.AppRect.New(BOOSE.Canvas, Integer, Integer)
+  name.vb: New(Canvas, Integer, Integer)
+- uid: Booze_Project.AppRect.Execute
+  commentId: M:Booze_Project.AppRect.Execute
+  id: Execute
+  parent: Booze_Project.AppRect
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: AppRect.Execute()
+  fullName: Booze_Project.AppRect.Execute()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Booze Project/AppRect.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute
+    path: ../Booze Project/AppRect.cs
+    startLine: 59
+  assemblies:
+  - Booze Project
+  namespace: Booze_Project
+  summary: >-
+    Executes the <code>rect</code> command:
+
+    - Calls <code>base.Execute()</code> to perform any base-class processing.
+
+    - Resolves parameters to integers via paramhandler.
+
+    - Validates dimensions are at least 1.
+
+    - Calls <code>canvas.Rect(width, height, false)</code> to draw the rectangle.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: Booze_Project.AppCommand.Execute
+  overload: Booze_Project.AppRect.Execute*
+  exceptions:
+  - type: BOOSE.CanvasException
+    commentId: T:BOOSE.CanvasException
+    description: Thrown when width or height are less than 1.
+references:
+- uid: Booze_Project.AppCommand2Param
+  commentId: T:Booze_Project.AppCommand2Param
+  parent: Booze_Project
+  href: Booze_Project.AppCommand2Param.html
+  name: AppCommand2Param
+  nameWithType: AppCommand2Param
+  fullName: Booze_Project.AppCommand2Param
+- uid: Booze_Project.AppCommand.paramhandler
+  commentId: M:Booze_Project.AppCommand.paramhandler
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  name: paramhandler()
+  nameWithType: AppCommand.paramhandler()
+  fullName: Booze_Project.AppCommand.paramhandler()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.paramhandler
+    name: paramhandler
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Booze_Project.AppCommand
+  commentId: T:Booze_Project.AppCommand
+  parent: Booze_Project
+  href: Booze_Project.AppCommand.html
+  name: AppCommand
+  nameWithType: AppCommand
+  fullName: Booze_Project.AppCommand
+- uid: Booze_Project.AppCanvasCommand
+  commentId: T:Booze_Project.AppCanvasCommand
+  parent: Booze_Project
+  href: Booze_Project.AppCanvasCommand.html
+  name: AppCanvasCommand
+  nameWithType: AppCanvasCommand
+  fullName: Booze_Project.AppCanvasCommand
+- uid: Booze_Project.AppCommand1Param
+  commentId: T:Booze_Project.AppCommand1Param
+  parent: Booze_Project
+  href: Booze_Project.AppCommand1Param.html
+  name: AppCommand1Param
+  nameWithType: AppCommand1Param
+  fullName: Booze_Project.AppCommand1Param
+- uid: Booze_Project.IAppCommand
+  commentId: T:Booze_Project.IAppCommand
+  parent: Booze_Project
+  href: Booze_Project.IAppCommand.html
+  name: IAppCommand
+  nameWithType: IAppCommand
+  fullName: Booze_Project.IAppCommand
+- uid: Booze_Project.AppCommand2Param.checkparameters(System.String[])
+  commentId: M:Booze_Project.AppCommand2Param.checkparameters(System.String[])
+  parent: Booze_Project.AppCommand2Param
+  isExternal: true
+  href: Booze_Project.AppCommand2Param.html#Booze_Project_AppCommand2Param_checkparameters_System_String___
+  name: checkparameters(string[])
+  nameWithType: AppCommand2Param.checkparameters(string[])
+  fullName: Booze_Project.AppCommand2Param.checkparameters(string[])
+  nameWithType.vb: AppCommand2Param.checkparameters(String())
+  fullName.vb: Booze_Project.AppCommand2Param.checkparameters(String())
+  name.vb: checkparameters(String())
+  spec.csharp:
+  - uid: Booze_Project.AppCommand2Param.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppCommand2Param.html#Booze_Project_AppCommand2Param_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand2Param.checkparameters(System.String[])
+    name: checkparameters
+    href: Booze_Project.AppCommand2Param.html#Booze_Project_AppCommand2Param_checkparameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Booze_Project.AppCanvasCommand.xPos
+  commentId: F:Booze_Project.AppCanvasCommand.xPos
+  parent: Booze_Project.AppCanvasCommand
+  href: Booze_Project.AppCanvasCommand.html#Booze_Project_AppCanvasCommand_xPos
+  name: xPos
+  nameWithType: AppCanvasCommand.xPos
+  fullName: Booze_Project.AppCanvasCommand.xPos
+- uid: Booze_Project.AppCanvasCommand.yPos
+  commentId: F:Booze_Project.AppCanvasCommand.yPos
+  parent: Booze_Project.AppCanvasCommand
+  href: Booze_Project.AppCanvasCommand.html#Booze_Project_AppCanvasCommand_yPos
+  name: yPos
+  nameWithType: AppCanvasCommand.yPos
+  fullName: Booze_Project.AppCanvasCommand.yPos
+- uid: Booze_Project.AppCanvasCommand.canvas
+  commentId: F:Booze_Project.AppCanvasCommand.canvas
+  parent: Booze_Project.AppCanvasCommand
+  href: Booze_Project.AppCanvasCommand.html#Booze_Project_AppCanvasCommand_canvas
+  name: canvas
+  nameWithType: AppCanvasCommand.canvas
+  fullName: Booze_Project.AppCanvasCommand.canvas
+- uid: Booze_Project.AppCanvasCommand.Canvas
+  commentId: P:Booze_Project.AppCanvasCommand.Canvas
+  parent: Booze_Project.AppCanvasCommand
+  href: Booze_Project.AppCanvasCommand.html#Booze_Project_AppCanvasCommand_Canvas
+  name: Canvas
+  nameWithType: AppCanvasCommand.Canvas
+  fullName: Booze_Project.AppCanvasCommand.Canvas
+- uid: Booze_Project.AppCommand.program
+  commentId: F:Booze_Project.AppCommand.program
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_program
+  name: program
+  nameWithType: AppCommand.program
+  fullName: Booze_Project.AppCommand.program
+- uid: Booze_Project.AppCommand.parameterList
+  commentId: F:Booze_Project.AppCommand.parameterList
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameterList
+  name: parameterList
+  nameWithType: AppCommand.parameterList
+  fullName: Booze_Project.AppCommand.parameterList
+- uid: Booze_Project.AppCommand.parameters
+  commentId: F:Booze_Project.AppCommand.parameters
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameters
+  name: parameters
+  nameWithType: AppCommand.parameters
+  fullName: Booze_Project.AppCommand.parameters
+- uid: Booze_Project.AppCommand.Program
+  commentId: P:Booze_Project.AppCommand.Program
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Program
+  name: Program
+  nameWithType: AppCommand.Program
+  fullName: Booze_Project.AppCommand.Program
+- uid: Booze_Project.AppCommand.name
+  commentId: P:Booze_Project.AppCommand.name
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_name
+  name: name
+  nameWithType: AppCommand.name
+  fullName: Booze_Project.AppCommand.name
+- uid: Booze_Project.AppCommand.ParameterList
+  commentId: P:Booze_Project.AppCommand.ParameterList
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ParameterList
+  name: ParameterList
+  nameWithType: AppCommand.ParameterList
+  fullName: Booze_Project.AppCommand.ParameterList
+- uid: Booze_Project.AppCommand.Parameters
+  commentId: P:Booze_Project.AppCommand.Parameters
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Parameters
+  name: Parameters
+  nameWithType: AppCommand.Parameters
+  fullName: Booze_Project.AppCommand.Parameters
+- uid: Booze_Project.AppCommand.Compile
+  commentId: M:Booze_Project.AppCommand.Compile
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  name: Compile()
+  nameWithType: AppCommand.Compile()
+  fullName: Booze_Project.AppCommand.Compile()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.Compile
+    name: Compile
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.Compile
+    name: Compile
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile
+  - name: (
+  - name: )
+- uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+  commentId: M:Booze_Project.AppCommand.ProcessParameters(System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  name: ProcessParameters(string)
+  nameWithType: AppCommand.ProcessParameters(string)
+  fullName: Booze_Project.AppCommand.ProcessParameters(string)
+  nameWithType.vb: AppCommand.ProcessParameters(String)
+  fullName.vb: Booze_Project.AppCommand.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.ProcessParameters(System.String)
+    name: ProcessParameters
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  commentId: M:Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+  parent: Booze_Project.AppCommand
+  isExternal: true
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  name: set(AppStoredProgram, string)
+  nameWithType: AppCommand.set(AppStoredProgram, string)
+  fullName: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, string)
+  nameWithType.vb: AppCommand.set(AppStoredProgram, String)
+  fullName.vb: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram, String)
+  name.vb: set(AppStoredProgram, String)
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.set(Booze_Project.AppStoredProgram,System.String)
+    name: set
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_
+  - name: (
+  - uid: Booze_Project.AppStoredProgram
+    name: AppStoredProgram
+    href: Booze_Project.AppStoredProgram.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Booze_Project.AppRect.Execute
+  commentId: M:Booze_Project.AppRect.Execute
+  href: Booze_Project.AppRect.html#Booze_Project_AppRect_Execute
+  name: Execute()
+  nameWithType: AppRect.Execute()
+  fullName: Booze_Project.AppRect.Execute()
+  spec.csharp:
+  - uid: Booze_Project.AppRect.Execute
+    name: Execute
+    href: Booze_Project.AppRect.html#Booze_Project_AppRect_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppRect.Execute
+    name: Execute
+    href: Booze_Project.AppRect.html#Booze_Project_AppRect_Execute
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Booze_Project.AppRect.#ctor*
+  commentId: Overload:Booze_Project.AppRect.#ctor
+  href: Booze_Project.AppRect.html#Booze_Project_AppRect__ctor
+  name: AppRect
+  nameWithType: AppRect.AppRect
+  fullName: Booze_Project.AppRect.AppRect
+  nameWithType.vb: AppRect.New
+  fullName.vb: Booze_Project.AppRect.New
+  name.vb: New
+- uid: BOOSE.Canvas
+  commentId: T:BOOSE.Canvas
+  parent: BOOSE
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: BOOSE.Canvas
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE.CanvasException
+  commentId: T:BOOSE.CanvasException
+  parent: BOOSE
+  isExternal: true
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSE.CanvasException
+- uid: Booze_Project.AppCommand.Execute
+  commentId: M:Booze_Project.AppCommand.Execute
+  parent: Booze_Project.AppCommand
+  href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Execute
+  name: Execute()
+  nameWithType: AppCommand.Execute()
+  fullName: Booze_Project.AppCommand.Execute()
+  spec.csharp:
+  - uid: Booze_Project.AppCommand.Execute
+    name: Execute
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Booze_Project.AppCommand.Execute
+    name: Execute
+    href: Booze_Project.AppCommand.html#Booze_Project_AppCommand_Execute
+  - name: (
+  - name: )
+- uid: Booze_Project.AppRect.Execute*
+  commentId: Overload:Booze_Project.AppRect.Execute
+  href: Booze_Project.AppRect.html#Booze_Project_AppRect_Execute
+  name: Execute
+  nameWithType: AppRect.Execute
+  fullName: Booze_Project.AppRect.Execute

@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boose_Testing.BooseTesting.appiftest
+  commentId: T:Boose_Testing.BooseTesting.appiftest
+  id: BooseTesting.appiftest
+  parent: Boose_Testing
+  children:
+  - Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+  - Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException
+  - Boose_Testing.BooseTesting.appiftest.SetProgram(Booze_Project.Appif,Boose_Testing.BooseTesting.appiftest.TestProgram)
+  langs:
+  - csharp
+  - vb
+  name: BooseTesting.appiftest
+  nameWithType: BooseTesting.appiftest
+  fullName: Boose_Testing.BooseTesting.appiftest
+  type: Class
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: appiftest
+    path: ../Boose Testing/Test1.cs
+    startLine: 1137
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Unit tests for <xref href="Booze_Project.Appif" data-throw-if-not-resolved="false"></xref> command.
+
+    Verifies program counter behavior and condition evaluation.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseTesting.appiftest
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseTesting.appiftest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.appiftest.SetProgram(Booze_Project.Appif,Boose_Testing.BooseTesting.appiftest.TestProgram)
+  commentId: M:Boose_Testing.BooseTesting.appiftest.SetProgram(Booze_Project.Appif,Boose_Testing.BooseTesting.appiftest.TestProgram)
+  id: SetProgram(Booze_Project.Appif,Boose_Testing.BooseTesting.appiftest.TestProgram)
+  parent: Boose_Testing.BooseTesting.appiftest
+  langs:
+  - csharp
+  - vb
+  name: SetProgram(Appif, TestProgram)
+  nameWithType: BooseTesting.appiftest.SetProgram(Appif, BooseTesting.appiftest.TestProgram)
+  fullName: Boose_Testing.BooseTesting.appiftest.SetProgram(Booze_Project.Appif, Boose_Testing.BooseTesting.appiftest.TestProgram)
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: SetProgram
+    path: ../Boose Testing/Test1.cs
+    startLine: 1161
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Uses reflection to assign a <xref href="Boose_Testing.BooseTesting.appiftest.TestProgram" data-throw-if-not-resolved="false"></xref> instance to an <xref href="Booze_Project.Appif" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: private void SetProgram(Appif cmd, BooseTesting.appiftest.TestProgram program)
+    parameters:
+    - id: cmd
+      type: Booze_Project.Appif
+    - id: program
+      type: Boose_Testing.BooseTesting.appiftest.TestProgram
+    content.vb: Private Sub SetProgram(cmd As Appif, program As BooseTesting.appiftest.TestProgram)
+  overload: Boose_Testing.BooseTesting.appiftest.SetProgram*
+- uid: Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+  commentId: M:Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+  id: Execute_ConditionFalse_AdvancesPCToEndLineNum
+  parent: Boose_Testing.BooseTesting.appiftest
+  langs:
+  - csharp
+  - vb
+  name: Execute_ConditionFalse_AdvancesPCToEndLineNum()
+  nameWithType: BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum()
+  fullName: Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_ConditionFalse_AdvancesPCToEndLineNum
+    path: ../Boose Testing/Test1.cs
+    startLine: 1172
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: >-
+    Verifies that if the condition evaluates to false, the program counter jumps to the
+
+    corresponding conditional's EndLineNum.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ConditionFalse_AdvancesPCToEndLineNum()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ConditionFalse_AdvancesPCToEndLineNum()
+  overload: Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException
+  commentId: M:Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException
+  id: Execute_InvalidBooleanExpression_ThrowsFormatException
+  parent: Boose_Testing.BooseTesting.appiftest
+  langs:
+  - csharp
+  - vb
+  name: Execute_InvalidBooleanExpression_ThrowsFormatException()
+  nameWithType: BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException()
+  fullName: Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException()
+  type: Method
+  source:
+    remote:
+      path: Booze Project/Boose Testing/Test1.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7.git
+    id: Execute_InvalidBooleanExpression_ThrowsFormatException
+    path: ../Boose Testing/Test1.cs
+    startLine: 1195
+  assemblies:
+  - Boose Testing
+  namespace: Boose_Testing
+  summary: Verifies that execution with an invalid boolean expression throws <xref href="System.FormatException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(FormatException))]
+
+      public void Execute_InvalidBooleanExpression_ThrowsFormatException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(FormatException))>
+
+      Public Sub Execute_InvalidBooleanExpression_ThrowsFormatException()
+  overload: Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.FormatException
+references:
+- uid: Booze_Project.Appif
+  commentId: T:Booze_Project.Appif
+  parent: Booze_Project
+  href: Booze_Project.Appif.html
+  name: Appif
+  nameWithType: Appif
+  fullName: Booze_Project.Appif
+- uid: Boose_Testing
+  commentId: N:Boose_Testing
+  href: Boose_Testing.html
+  name: Boose_Testing
+  nameWithType: Boose_Testing
+  fullName: Boose_Testing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Booze_Project
+  commentId: N:Booze_Project
+  href: Booze_Project.html
+  name: Booze_Project
+  nameWithType: Booze_Project
+  fullName: Booze_Project
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+  commentId: T:Boose_Testing.BooseTesting.appiftest.TestProgram
+  parent: Boose_Testing
+  href: Boose_Testing.BooseTesting.html
+  name: BooseTesting.appiftest.TestProgram
+  nameWithType: BooseTesting.appiftest.TestProgram
+  fullName: Boose_Testing.BooseTesting.appiftest.TestProgram
+  spec.csharp:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+    name: TestProgram
+    href: Boose_Testing.BooseTesting.appiftest.TestProgram.html
+  spec.vb:
+  - uid: Boose_Testing.BooseTesting
+    name: BooseTesting
+    href: Boose_Testing.BooseTesting.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest
+    name: appiftest
+    href: Boose_Testing.BooseTesting.appiftest.html
+  - name: .
+  - uid: Boose_Testing.BooseTesting.appiftest.TestProgram
+    name: TestProgram
+    href: Boose_Testing.BooseTesting.appiftest.TestProgram.html
+- uid: Boose_Testing.BooseTesting.appiftest.SetProgram*
+  commentId: Overload:Boose_Testing.BooseTesting.appiftest.SetProgram
+  href: Boose_Testing.BooseTesting.appiftest.html#Boose_Testing_BooseTesting_appiftest_SetProgram_Booze_Project_Appif_Boose_Testing_BooseTesting_appiftest_TestProgram_
+  name: SetProgram
+  nameWithType: BooseTesting.appiftest.SetProgram
+  fullName: Boose_Testing.BooseTesting.appiftest.SetProgram
+- uid: Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum*
+  commentId: Overload:Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+  href: Boose_Testing.BooseTesting.appiftest.html#Boose_Testing_BooseTesting_appiftest_Execute_ConditionFalse_AdvancesPCToEndLineNum
+  name: Execute_ConditionFalse_AdvancesPCToEndLineNum
+  nameWithType: BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+  fullName: Boose_Testing.BooseTesting.appiftest.Execute_ConditionFalse_AdvancesPCToEndLineNum
+- uid: System.FormatException
+  commentId: T:System.FormatException
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.formatexception
+  name: FormatException
+  nameWithType: FormatException
+  fullName: System.FormatException
+- uid: Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException*
+  commentId: Overload:Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException
+  href: Boose_Testing.BooseTesting.appiftest.html#Boose_Testing_BooseTesting_appiftest_Execute_InvalidBooleanExpression_ThrowsFormatException
+  name: Execute_InvalidBooleanExpression_ThrowsFormatException
+  nameWithType: BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException
+  fullName: Boose_Testing.BooseTesting.appiftest.Execute_InvalidBooleanExpression_ThrowsFormatException

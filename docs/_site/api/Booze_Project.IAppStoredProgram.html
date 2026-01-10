@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IAppStoredProgram </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IAppStoredProgram ">
+    
+    <meta name="description" content="Defines the runtime program container used by the application. Provides storage for commands, variables, conditional linking and expression evaluation.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Booze_Project.IAppStoredProgram">
+
+
+
+  <h1 id="Booze_Project_IAppStoredProgram" data-uid="Booze_Project.IAppStoredProgram" class="text-break">Interface IAppStoredProgram</h1>
+  <div class="markdown level0 summary"><p>Defines the runtime program container used by the application.
+Provides storage for commands, variables, conditional linking and expression evaluation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Booze_Project.html">Booze_Project</a></h6>
+  <h6><strong>Assembly</strong>: Booze Project.dll</h6>
+  <h5 id="Booze_Project_IAppStoredProgram_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAppStoredProgram</code></pre>
+  </div>
+  <h5 id="Booze_Project_IAppStoredProgram_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Implementations manage a program counter (<a class="xref" href="Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_PC">PC</a>) and expose methods for adding commands and variables,
+evaluating expressions, and driving program execution. The parser and command implementations interact with
+an <a class="xref" href="Booze_Project.IAppStoredProgram.html">IAppStoredProgram</a> instance to register commands, resolve variables and compute expressions.</p>
+</div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_PC.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.PC%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L24">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_PC_" data-uid="Booze_Project.IAppStoredProgram.PC*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_PC" data-uid="Booze_Project.IAppStoredProgram.PC">PC</h4>
+  <div class="markdown level1 summary"><p>Program counter index (the next command index to execute).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_Add_Booze_Project_AppCommand_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L70">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_Add_" data-uid="Booze_Project.IAppStoredProgram.Add*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_Add_Booze_Project_AppCommand_" data-uid="Booze_Project.IAppStoredProgram.Add(Booze_Project.AppCommand)">Add(AppCommand)</h4>
+  <div class="markdown level1 summary"><p>Adds a compiled <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a> to the program.
+Implementations typically assign the program's canvas to canvas-aware commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Add(AppCommand C)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a></td>
+        <td><span class="parametername">C</span></td>
+        <td><p>Command to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>Index at which the command was added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StoredProgramException</span></td>
+        <td><p>Thrown when <code class="paramref">C</code> is null or otherwise invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_AddVariable_Booze_Project_AppEvaluation_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L31">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_AddVariable_" data-uid="Booze_Project.IAppStoredProgram.AddVariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_AddVariable_Booze_Project_AppEvaluation_" data-uid="Booze_Project.IAppStoredProgram.AddVariable(Booze_Project.AppEvaluation)">AddVariable(AppEvaluation)</h4>
+  <div class="markdown level1 summary"><p>Register a variable (<a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a>) with the program.
+If the variable already exists the implementation may ignore the add or raise an error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddVariable(AppEvaluation Variable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a></td>
+        <td><span class="parametername">Variable</span></td>
+        <td><p>Variable instance to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_Commandsleft.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.Commandsleft%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L81">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_Commandsleft_" data-uid="Booze_Project.IAppStoredProgram.Commandsleft*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_Commandsleft" data-uid="Booze_Project.IAppStoredProgram.Commandsleft">Commandsleft()</h4>
+  <div class="markdown level1 summary"><p>Returns whether there are remaining commands to execute (PC &lt; command count).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Commandsleft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code> when commands remain; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_EvaluateExpression_System_String_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.EvaluateExpression(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L61">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_EvaluateExpression_" data-uid="Booze_Project.IAppStoredProgram.EvaluateExpression*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_EvaluateExpression_System_String_" data-uid="Booze_Project.IAppStoredProgram.EvaluateExpression(System.String)">EvaluateExpression(string)</h4>
+  <div class="markdown level1 summary"><p>Evaluates an expression string after substituting variable names with their current values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string EvaluateExpression(string Exp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">Exp</span></td>
+        <td><p>Expression to evaluate (tokens expected to be space-separated).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Result of the evaluation as a string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StoredProgramException</span></td>
+        <td><p>Thrown when the expression is invalid or evaluation fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_GetVarValue_System_String_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.GetVarValue(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L46">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_GetVarValue_" data-uid="Booze_Project.IAppStoredProgram.GetVarValue*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_GetVarValue_System_String_" data-uid="Booze_Project.IAppStoredProgram.GetVarValue(System.String)">GetVarValue(string)</h4>
+  <div class="markdown level1 summary"><p>Gets the current textual representation of a variable's value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetVarValue(string varName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Name of the variable to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>String containing the variable's value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StoredProgramException</span></td>
+        <td><p>Thrown when the variable does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_Getvariable_System_Int32_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.Getvariable(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L106">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_Getvariable_" data-uid="Booze_Project.IAppStoredProgram.Getvariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_Getvariable_System_Int32_" data-uid="Booze_Project.IAppStoredProgram.Getvariable(System.Int32)">Getvariable(int)</h4>
+  <div class="markdown level1 summary"><p>Gets the variable instance by index in the internal variable table.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AppEvaluation Getvariable(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of the variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a></td>
+        <td><p>The <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> instance at the specified index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StoredProgramException</span></td>
+        <td><p>Thrown when the index is out of range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_Getvariable_System_String_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.Getvariable(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L98">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_Getvariable_" data-uid="Booze_Project.IAppStoredProgram.Getvariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_Getvariable_System_String_" data-uid="Booze_Project.IAppStoredProgram.Getvariable(System.String)">Getvariable(string)</h4>
+  <div class="markdown level1 summary"><p>Gets the variable instance by name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AppEvaluation Getvariable(string varName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a></td>
+        <td><p>The <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> instance for the variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StoredProgramException</span></td>
+        <td><p>Thrown when the variable is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_IsExpression_System_String_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.IsExpression(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L53">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_IsExpression_" data-uid="Booze_Project.IAppStoredProgram.IsExpression*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_IsExpression_System_String_" data-uid="Booze_Project.IAppStoredProgram.IsExpression(System.String)">IsExpression(string)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a given string should be treated as an expression for evaluation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsExpression(string expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>Candidate expression string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code> if the string is considered an expression (numeric or operator-containing), otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_ResetProgram.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.ResetProgram%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L75">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_ResetProgram_" data-uid="Booze_Project.IAppStoredProgram.ResetProgram*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_ResetProgram" data-uid="Booze_Project.IAppStoredProgram.ResetProgram">ResetProgram()</h4>
+  <div class="markdown level1 summary"><p>Reset program state: clear commands, variables, condition stacks, reset canvas and PC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetProgram()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_Run.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.Run%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L90">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_Run_" data-uid="Booze_Project.IAppStoredProgram.Run*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_Run" data-uid="Booze_Project.IAppStoredProgram.Run">Run()</h4>
+  <div class="markdown level1 summary"><p>Execute the stored program starting at the current <a class="xref" href="Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_PC">PC</a> until completion or an error occurs.
+Implementations are expected to update <a class="xref" href="Booze_Project.IAppStoredProgram.html#Booze_Project_IAppStoredProgram_PC">PC</a> as commands modify control flow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Run()</code></pre>
+  </div>
+  <h5 id="Booze_Project_IAppStoredProgram_Run_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Errors encountered during command execution should be surfaced via exceptions (for example <span class="xref">BOOSE.StoredProgramException</span>).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.UpdateVariable(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L127">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_UpdateVariable_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Boolean_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Boolean)">UpdateVariable(string, bool)</h4>
+  <div class="markdown level1 summary"><p>Update a boolean variable's value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateVariable(string varName, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Boolean value to assign.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Double_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.UpdateVariable(System.String%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L120">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_UpdateVariable_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Double_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Double)">UpdateVariable(string, double)</h4>
+  <div class="markdown level1 summary"><p>Update a real (double) variable's value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateVariable(string varName, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Double value to assign.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.UpdateVariable(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L113">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_UpdateVariable_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_UpdateVariable_System_String_System_Int32_" data-uid="Booze_Project.IAppStoredProgram.UpdateVariable(System.String,System.Int32)">UpdateVariable(string, int)</h4>
+  <div class="markdown level1 summary"><p>Update an integer variable's value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateVariable(string varName, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Integer value to assign.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram_VariableExists_System_String_.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram.VariableExists(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L38">View Source</a>
+  </span>
+  <a id="Booze_Project_IAppStoredProgram_VariableExists_" data-uid="Booze_Project.IAppStoredProgram.VariableExists*"></a>
+  <h4 id="Booze_Project_IAppStoredProgram_VariableExists_System_String_" data-uid="Booze_Project.IAppStoredProgram.VariableExists(System.String)">VariableExists(string)</h4>
+  <div class="markdown level1 summary"><p>Returns whether a variable with the specified name exists in the program.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool VariableExists(string varName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Name of the variable to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code> when the variable exists; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_IAppStoredProgram.md&amp;value=---%0Auid%3A%20Booze_Project.IAppStoredProgram%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/IAppStoredProgram.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

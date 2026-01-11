@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AppConditionalCommand </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AppConditionalCommand ">
+    
+    <meta name="description" content="Base class for commands that represent conditional behaviour (blocks/expressions). Inherits boolean evaluation behavior from  and adds line-number bookkeeping and a runtime condition used to control program flow.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Booze_Project.AppConditionalCommand">
+
+
+
+  <h1 id="Booze_Project_AppConditionalCommand" data-uid="Booze_Project.AppConditionalCommand" class="text-break">Class AppConditionalCommand</h1>
+  <div class="markdown level0 summary"><p>Base class for commands that represent conditional behaviour (blocks/expressions).
+Inherits boolean evaluation behavior from <a class="xref" href="Booze_Project.AppBool.html">AppBool</a> and adds
+line-number bookkeeping and a runtime condition used to control program flow.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a></div>
+    <div class="level2"><a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a></div>
+    <div class="level3"><a class="xref" href="Booze_Project.AppBool.html">AppBool</a></div>
+    <div class="level4"><span class="xref">AppConditionalCommand</span></div>
+      <div class="level5"><a class="xref" href="Booze_Project.AppCompoundCommand.html">AppCompoundCommand</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Booze_Project.AppBool.html#Booze_Project_AppBool_boolvalue">AppBool.boolvalue</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppBool.html#Booze_Project_AppBool_BoolValue">AppBool.BoolValue</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_varname">AppEvaluation.varname</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_expression">AppEvaluation.expression</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_evaluatedexpression">AppEvaluation.evaluatedexpression</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_value">AppEvaluation.value</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_VarName">AppEvaluation.VarName</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Value">AppEvaluation.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Expression">AppEvaluation.Expression</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_checkparameters_System_String___">AppEvaluation.checkparameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_program">AppCommand.program</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameterList">AppCommand.parameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameters">AppCommand.parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Program">AppCommand.Program</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_name">AppCommand.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_ParameterList">AppCommand.ParameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Parameters">AppCommand.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_">AppCommand.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_">AppCommand.set(AppStoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler">AppCommand.paramhandler()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Booze_Project.html">Booze_Project</a></h6>
+  <h6><strong>Assembly</strong>: Booze Project.dll</h6>
+  <h5 id="Booze_Project_AppConditionalCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AppConditionalCommand : AppBool, IAppCommand</code></pre>
+  </div>
+  <h5 id="Booze_Project_AppConditionalCommand_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Instances hold their source line number (<a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_Linenum">Linenum</a>), the index to jump to when the
+condition is false (<a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_EndLineNum">EndLineNum</a>), and the evaluated boolean result (<a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_Condition">Condition</a>).
+The program/compilation phase is expected to set <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_EndLineNum">EndLineNum</a> and <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_Linenum">Linenum</a>.</p>
+</div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_condition.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.condition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L27">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppConditionalCommand_condition" data-uid="Booze_Project.AppConditionalCommand.condition">condition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool condition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_endLineNum.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.endLineNum%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppConditionalCommand_endLineNum" data-uid="Booze_Project.AppConditionalCommand.endLineNum">endLineNum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int endLineNum</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_linenum.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.linenum%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L25">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppConditionalCommand_linenum" data-uid="Booze_Project.AppConditionalCommand.linenum">linenum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int linenum</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_Condition.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.Condition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L43">View Source</a>
+  </span>
+  <a id="Booze_Project_AppConditionalCommand_Condition_" data-uid="Booze_Project.AppConditionalCommand.Condition*"></a>
+  <h4 id="Booze_Project_AppConditionalCommand_Condition" data-uid="Booze_Project.AppConditionalCommand.Condition">Condition</h4>
+  <div class="markdown level1 summary"><p>The evaluated boolean condition for this command.
+Set during <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_Execute">Execute()</a> and used by runtime control flow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Condition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_EndLineNum.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.EndLineNum%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L32">View Source</a>
+  </span>
+  <a id="Booze_Project_AppConditionalCommand_EndLineNum_" data-uid="Booze_Project.AppConditionalCommand.EndLineNum*"></a>
+  <h4 id="Booze_Project_AppConditionalCommand_EndLineNum" data-uid="Booze_Project.AppConditionalCommand.EndLineNum">EndLineNum</h4>
+  <div class="markdown level1 summary"><p>Index of the command to jump to when this conditional evaluates to false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EndLineNum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_Linenum.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.Linenum%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L37">View Source</a>
+  </span>
+  <a id="Booze_Project_AppConditionalCommand_Linenum_" data-uid="Booze_Project.AppConditionalCommand.Linenum*"></a>
+  <h4 id="Booze_Project_AppConditionalCommand_Linenum" data-uid="Booze_Project.AppConditionalCommand.Linenum">Linenum</h4>
+  <div class="markdown level1 summary"><p>Source line number (or command index) where this conditional command appears.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Linenum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_Compile.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L53">View Source</a>
+  </span>
+  <a id="Booze_Project_AppConditionalCommand_Compile_" data-uid="Booze_Project.AppConditionalCommand.Compile*"></a>
+  <h4 id="Booze_Project_AppConditionalCommand_Compile" data-uid="Booze_Project.AppConditionalCommand.Compile">Compile()</h4>
+  <div class="markdown level1 summary"><p>Compile-time preparation for the conditional command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Booze_Project.AppBool.html#Booze_Project_AppBool_Compile">AppBool.Compile()</a></div>
+  <h5 id="Booze_Project_AppConditionalCommand_Compile_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Stores the trimmed textual parameter list into the inherited <a class="xref" href="Booze_Project.AppEvaluation.html#Booze_Project_AppEvaluation_Expression">Expression</a>
+and pushes this conditional onto the program condition stack for later linking.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a></td>
+        <td><p>If base.program is null when called.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand_Execute.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L68">View Source</a>
+  </span>
+  <a id="Booze_Project_AppConditionalCommand_Execute_" data-uid="Booze_Project.AppConditionalCommand.Execute*"></a>
+  <h4 id="Booze_Project_AppConditionalCommand_Execute" data-uid="Booze_Project.AppConditionalCommand.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Evaluates the conditional at runtime and advances the program counter if the condition is false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Booze_Project.AppBool.html#Booze_Project_AppBool_Execute">AppBool.Execute()</a></div>
+  <h5 id="Booze_Project_AppConditionalCommand_Execute_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calls <code>base.Execute()</code> to evaluate the boolean expression via the <a class="xref" href="Booze_Project.AppBool.html">AppBool</a>/ <a class="xref" href="Booze_Project.AppEvaluation.html">AppEvaluation</a> logic.
+The evaluated boolean is copied into <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_Condition">Condition</a>; if false the program's <code>PC</code> is set to <a class="xref" href="Booze_Project.AppConditionalCommand.html#Booze_Project_AppConditionalCommand_EndLineNum">EndLineNum</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a></td>
+        <td><p>If base.program is null when called.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppConditionalCommand.md&amp;value=---%0Auid%3A%20Booze_Project.AppConditionalCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppConditionalCommand.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

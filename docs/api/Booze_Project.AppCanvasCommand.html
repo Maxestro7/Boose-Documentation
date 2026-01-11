@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AppCanvasCommand </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AppCanvasCommand ">
+    
+    <meta name="description" content="Base class for application commands that operate on a drawing canvas. Inherits from  and exposes a protected  instance plus pen position fields used by concrete canvas commands (for example: rect, circle, moveto).">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Booze_Project.AppCanvasCommand">
+
+
+
+  <h1 id="Booze_Project_AppCanvasCommand" data-uid="Booze_Project.AppCanvasCommand" class="text-break">Class AppCanvasCommand</h1>
+  <div class="markdown level0 summary"><p>Base class for application commands that operate on a drawing canvas.
+Inherits from <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a> and exposes a protected <span class="xref">BOOSE.ICanvas</span> instance
+plus pen position fields used by concrete canvas commands (for example: <code>rect</code>, <code>circle</code>, <code>moveto</code>).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a></div>
+    <div class="level2"><span class="xref">AppCanvasCommand</span></div>
+      <div class="level3"><a class="xref" href="Boose_Testing.appcanvascommandtest.TestCanvasCommand.html">appcanvascommandtest.TestCanvasCommand</a></div>
+      <div class="level3"><a class="xref" href="Booze_Project.AppCommand1Param.html">AppCommand1Param</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_program">AppCommand.program</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameterList">AppCommand.parameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_parameters">AppCommand.parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Program">AppCommand.Program</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_name">AppCommand.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_ParameterList">AppCommand.ParameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Parameters">AppCommand.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Compile">AppCommand.Compile()</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_Execute">AppCommand.Execute()</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_ProcessParameters_System_String_">AppCommand.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_set_Booze_Project_AppStoredProgram_System_String_">AppCommand.set(AppStoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_paramhandler">AppCommand.paramhandler()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Booze_Project.html">Booze_Project</a></h6>
+  <h6><strong>Assembly</strong>: Booze Project.dll</h6>
+  <h5 id="Booze_Project_AppCanvasCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">internal class AppCanvasCommand : AppCommand, IAppCommand</code></pre>
+  </div>
+  <h5 id="Booze_Project_AppCanvasCommand_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Concrete canvas commands should derive from <a class="xref" href="Booze_Project.AppCanvasCommand.html">AppCanvasCommand</a> to gain access to the shared
+canvas instance and the inherited parameter handling from <a class="xref" href="Booze_Project.AppCommand.html">AppCommand</a>.
+The protected <code>xPos</code> and <code>yPos</code> fields represent the current pen position and are typically
+used or updated by drawing commands.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand__ctor.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L51">View Source</a>
+  </span>
+  <a id="Booze_Project_AppCanvasCommand__ctor_" data-uid="Booze_Project.AppCanvasCommand.#ctor*"></a>
+  <h4 id="Booze_Project_AppCanvasCommand__ctor" data-uid="Booze_Project.AppCanvasCommand.#ctor">AppCanvasCommand()</h4>
+  <div class="markdown level1 summary"><p>Parameterless constructor required for factories and deserialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCanvasCommand()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand__ctor_BOOSE_ICanvas_.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.%23ctor(BOOSE.ICanvas)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L58">View Source</a>
+  </span>
+  <a id="Booze_Project_AppCanvasCommand__ctor_" data-uid="Booze_Project.AppCanvasCommand.#ctor*"></a>
+  <h4 id="Booze_Project_AppCanvasCommand__ctor_BOOSE_ICanvas_" data-uid="Booze_Project.AppCanvasCommand.#ctor(BOOSE.ICanvas)">AppCanvasCommand(ICanvas)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="Booze_Project.AppCanvasCommand.html">AppCanvasCommand</a> with the specified canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCanvasCommand(ICanvas c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICanvas</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Canvas to be used by the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand_canvas.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.canvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L36">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppCanvasCommand_canvas" data-uid="Booze_Project.AppCanvasCommand.canvas">canvas</h4>
+  <div class="markdown level1 summary"><p>Backing field for the <a class="xref" href="Booze_Project.AppCanvasCommand.html#Booze_Project_AppCanvasCommand_Canvas">Canvas</a> property. Represents the canvas the command will draw onto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ICanvas canvas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICanvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand_xPos.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.xPos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppCanvasCommand_xPos" data-uid="Booze_Project.AppCanvasCommand.xPos">xPos</h4>
+  <div class="markdown level1 summary"><p>Current pen X coordinate used by canvas commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int xPos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand_yPos.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.yPos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L31">View Source</a>
+  </span>
+  <h4 id="Booze_Project_AppCanvasCommand_yPos" data-uid="Booze_Project.AppCanvasCommand.yPos">yPos</h4>
+  <div class="markdown level1 summary"><p>Current pen Y coordinate used by canvas commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int yPos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand_Canvas.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.Canvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L42">View Source</a>
+  </span>
+  <a id="Booze_Project_AppCanvasCommand_Canvas_" data-uid="Booze_Project.AppCanvasCommand.Canvas*"></a>
+  <h4 id="Booze_Project_AppCanvasCommand_Canvas" data-uid="Booze_Project.AppCanvasCommand.Canvas">Canvas</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the canvas instance that this command will operate on.
+Setting this property allows commands to draw on different canvases (for example during testing).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICanvas Canvas { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICanvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand_checkparameters_System_String___.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand.checkparameters(System.String%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L72">View Source</a>
+  </span>
+  <a id="Booze_Project_AppCanvasCommand_checkparameters_" data-uid="Booze_Project.AppCanvasCommand.checkparameters*"></a>
+  <h4 id="Booze_Project_AppCanvasCommand_checkparameters_System_String___" data-uid="Booze_Project.AppCanvasCommand.checkparameters(System.String[])">checkparameters(string[])</h4>
+  <div class="markdown level1 summary"><p>Validates or normalizes command parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void checkparameters(string[] Parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">Parameters</span></td>
+        <td><p>Array of parameter strings provided for the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Booze_Project.AppCommand.html#Booze_Project_AppCommand_checkparameters_System_String___">AppCommand.checkparameters(string[])</a></div>
+  <h5 id="Booze_Project_AppCanvasCommand_checkparameters_System_String____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The canvas command base class does not enforce any parameter rules itself and therefore
+provides a no-op implementation. Derived classes should override this method when they
+need to validate or parse parameters.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Booze_Project.IAppCommand.html">IAppCommand</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/new/main/apiSpec/new?filename=Booze_Project_AppCanvasCommand.md&amp;value=---%0Auid%3A%20Booze_Project.AppCanvasCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Maxestro7/blob/main/Booze Project/Booze Project/AppCanvasCommand.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1028 @@
+{
+  "source_base_path": "C:/Users/Jay bodger/Desktop/Advanced Software Engineering/Booze Assignment/Booze Project/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppCanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppCanvasTests",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppCanvasTests.yml\" sourcestartlinenumber=\"1\">Verifies that <xref href=\"Booze_Project.AppCanvas.MoveTo(System.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> updates the pen position to the supplied coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppCircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppCircleTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppCircleTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.TestCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.TestCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppCommandTests.TestCommand",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppCommandTests.TestCommand.yml\" sourcestartlinenumber=\"1\">Test-only concrete <xref href=\"Booze_Project.AppCommand\" data-throw-if-not-resolved=\"false\"></xref> implementation to observe behavior.\nOverrides <xref href=\"Boose_Testing.BooseTesting.AppCommandTests.TestCommand.checkparameters(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> to mark invocation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppCommandTests.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppCommandTests.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> to register a variable in <xref href=\"Booze_Project.AppStoredProgram\" data-throw-if-not-resolved=\"false\"></xref> variable table.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppCommandTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppCommandTests",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppCommandTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the abstract <xref href=\"Booze_Project.AppCommand\" data-throw-if-not-resolved=\"false\"></xref> class.\nIncludes tests for parameter handling, compilation, and program registration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppPenColour.TestCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppPenColour.TestCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppPenColour.TestCanvas",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppPenColour.TestCanvas.yml\" sourcestartlinenumber=\"1\">Minimal canvas implementation to capture SetColour calls for testing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppPenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppPenColour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppPenColour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppStoredProgramTest.DummyCommand.yml\" sourcestartlinenumber=\"1\">Dummy command for testing. Marks itself executed when <xref href=\"Booze_Project.AppCommand.Execute\" data-throw-if-not-resolved=\"false\"></xref> is called.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppStoredProgramTest.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> implementation for testing variable storage.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppStoredProgramTest.ThrowingCommand.yml\" sourcestartlinenumber=\"1\">Dummy command that throws a <xref href=\"BOOSE.BOOSEException\" data-throw-if-not-resolved=\"false\"></xref> when executed, for testing exception handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppStoredProgramTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppStoredProgramTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppWriteTests.TestCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppWriteTests.TestCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppWriteTests.TestCanvas",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppWriteTests.TestCanvas.yml\" sourcestartlinenumber=\"1\">A minimal <xref href=\"BOOSE.Canvas\" data-throw-if-not-resolved=\"false\"></xref> implementation for testing <xref href=\"Booze_Project.AppWrite\" data-throw-if-not-resolved=\"false\"></xref>.\nRecords the last text written to the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppWriteTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppWriteTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppWriteTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> used for variable resolution in tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.AppConditionalCommandTests.yml\" sourcestartlinenumber=\"1\">Helper methods and tests for <xref href=\"Booze_Project.AppConditionalCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.AppcondtionalCommandtest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.AppcondtionalCommandtest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppConditionalCommand\" data-throw-if-not-resolved=\"false\"></xref>.\nVerifies conditional command execution and parameter rules.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appbooltest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appbooltest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appbooltest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appbooltest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppBool\" data-throw-if-not-resolved=\"false\"></xref> command.\nVerifies boolean variable registration, evaluation, and parameter handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appcommand1test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appcommand1test.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appcommand1test",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appcommand2param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appcommand2param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appcommand2param",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appcommand2param.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppCommand2Param\" data-throw-if-not-resolved=\"false\"></xref>.\nVerifies that commands expecting exactly two parameters enforce parameter count rules and compile correctly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appcommand3param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appcommand3param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appcommand3param",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appcommand3param.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppCommand3Param\" data-throw-if-not-resolved=\"false\"></xref>.\nVerifies that commands expecting exactly three parameters enforce parameter count rules and compile correctly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appcommandfactorytest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appcommandfactorytest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appcommandfactorytest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appcompoundcommandtest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appcompoundcommandtest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appcompoundcommandtest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appcompoundcommandtest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppCompoundCommand\" data-throw-if-not-resolved=\"false\"></xref>.\nValidates parameter rules for comparison-based commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appelsetest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appelsetest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appelsetest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appendtest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appendtest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appendtest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appendtest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.Append\" data-throw-if-not-resolved=\"false\"></xref> command.\nVerifies compilation and execution behavior for end-of-block logic.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appevaluationtest.TestEvaluation.yml\" sourcestartlinenumber=\"1\">Minimal concrete implementation of <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> for testing purposes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appevaluationtest.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appevaluationtest.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> used for variable resolution in tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appevaluationtest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appevaluationtest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appiftest.TestProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appiftest.TestProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appiftest.TestProgram",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appiftest.TestProgram.yml\" sourcestartlinenumber=\"1\">A test program that fakes EvaluateExpression calls for Appif.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appiftest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appiftest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appiftest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appiftest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.Appif\" data-throw-if-not-resolved=\"false\"></xref> command.\nVerifies program counter behavior and condition evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appinttest.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appinttest.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appinttest.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appinttest.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> used for variable resolution in tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.appinttest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.appinttest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.appinttest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.appinttest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppInt\" data-throw-if-not-resolved=\"false\"></xref> command.\nVerifies variable registration, integer assignment, and exception handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.apprealtest.TestVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.apprealtest.TestVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.apprealtest.TestVariable",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.apprealtest.TestVariable.yml\" sourcestartlinenumber=\"1\">Minimal concrete <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> used for variable resolution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.apprealtest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.apprealtest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.apprealtest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.apprealtest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppReal\" data-throw-if-not-resolved=\"false\"></xref> command.\nVerifies variable registration, real number evaluation, and exception handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.apprecttest.TestCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.apprecttest.TestCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.apprecttest.TestCanvas",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.apprecttest.TestCanvas.yml\" sourcestartlinenumber=\"1\">Minimal canvas implementation to capture Rect calls for testing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.apprecttest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.apprecttest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting.apprecttest",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.apprecttest.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"Booze_Project.AppRect\" data-throw-if-not-resolved=\"false\"></xref>.\nVerifies that rectangles are drawn with correct dimensions and errors are thrown for invalid inputs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.BooseTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.BooseTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing.BooseTesting",
+      "Summary": "<p sourcefile=\"api/Boose_Testing.BooseTesting.yml\" sourcestartlinenumber=\"1\">Unit tests for the application canvas implementation <xref href=\"Booze_Project.AppCanvas\" data-throw-if-not-resolved=\"false\"></xref>.\nVerifies basic drawing operations update the internal pen position as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Boose_Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Boose_Testing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Boose_Testing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppBool",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppBool.yml\" sourcestartlinenumber=\"1\">Represents a boolean evaluation value in the application.\nInherits evaluation behavior from <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> and exposes a boolean view of the stored numeric value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCanvas",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCanvas.yml\" sourcestartlinenumber=\"1\">Concrete application implementation of the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface.\nProvides simple drawing primitives backed by an in-memory <xref href=\"System.Drawing.Bitmap\" data-throw-if-not-resolved=\"false\"></xref> and a <xref href=\"System.Drawing.Graphics\" data-throw-if-not-resolved=\"false\"></xref> surface.\nThe canvas maintains a current pen position (<xref href=\"Booze_Project.AppCanvas.Xpos\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Booze_Project.AppCanvas.Ypos\" data-throw-if-not-resolved=\"false\"></xref>) used as the origin for many drawing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCanvasCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCanvasCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCanvasCommand",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCanvasCommand.yml\" sourcestartlinenumber=\"1\">Base class for application commands that operate on a drawing canvas.\nInherits from <xref href=\"Booze_Project.AppCommand\" data-throw-if-not-resolved=\"false\"></xref> and exposes a protected <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> instance\nplus pen position fields used by concrete canvas commands (for example: <code>rect</code>, <code>circle</code>, <code>moveto</code>).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCircle",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCircle.yml\" sourcestartlinenumber=\"1\">Represents the <code>circle</code> command.\nValidates a single integer parameter (radius) and instructs the canvas to draw a circle.\nInherits from <xref href=\"Booze_Project.AppCommand1Param\" data-throw-if-not-resolved=\"false\"></xref>, the application-level single-parameter command base which derives from <xref href=\"Booze_Project.AppCanvasCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCommand",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCommand.yml\" sourcestartlinenumber=\"1\">Base application command implementing <xref href=\"Booze_Project.IAppCommand\" data-throw-if-not-resolved=\"false\"></xref>.\nProvides common parameter handling, a reference to the containing <xref href=\"Booze_Project.AppStoredProgram\" data-throw-if-not-resolved=\"false\"></xref>,\nand basic compile/execute lifecycle behaviour used by concrete command implementations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCommand1Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCommand1Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCommand1Param",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCommand1Param.yml\" sourcestartlinenumber=\"1\">Base class for application commands that accept exactly one parameter.\nDerives from <xref href=\"Booze_Project.AppCanvasCommand\" data-throw-if-not-resolved=\"false\"></xref> and provides a standard\nparameter-count validation used by single-parameter canvas commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCommand2Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCommand2Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCommand2Param",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCommand2Param.yml\" sourcestartlinenumber=\"1\">Base class for application commands that accept exactly two parameters.\nDerives from <xref href=\"Booze_Project.AppCommand1Param\" data-throw-if-not-resolved=\"false\"></xref> and enforces a two-parameter count during compilation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCommand3Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCommand3Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCommand3Param",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCommand3Param.yml\" sourcestartlinenumber=\"1\">Base class for application commands that accept exactly three parameters.\nDerives from <xref href=\"Booze_Project.AppCommand2Param\" data-throw-if-not-resolved=\"false\"></xref> and enforces a three-parameter count during compilation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Singleton factory that creates application-specific <xref href=\"Booze_Project.IAppCommand\" data-throw-if-not-resolved=\"false\"></xref> instances.\nMaps textual command names to concrete <code>App*</code> implementations used by the application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppCompoundCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppCompoundCommand",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppCompoundCommand.yml\" sourcestartlinenumber=\"1\">Base class for compound conditional commands (for example the application-level <code>if</code>/<code>while</code> blocks).\nExtends <xref href=\"Booze_Project.AppConditionalCommand\" data-throw-if-not-resolved=\"false\"></xref> and provides linking to the paired conditional (the corresponding <code>if</code>/<code>end</code>/<code>else</code> command)\nplus helper logic to normalise and evaluate conditional expressions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppConditionalCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppConditionalCommand",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppConditionalCommand.yml\" sourcestartlinenumber=\"1\">Base class for commands that represent conditional behaviour (blocks/expressions).\nInherits boolean evaluation behavior from <xref href=\"Booze_Project.AppBool\" data-throw-if-not-resolved=\"false\"></xref> and adds\nline-number bookkeeping and a runtime condition used to control program flow.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppElse",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppElse.yml\" sourcestartlinenumber=\"1\">Represents an application-level <code>else</code> compound command.\nActs as the partner for a preceding conditional (<code>if</code>) and links to the subsequent <code>end</code> command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppEvaluation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppEvaluation",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppEvaluation.yml\" sourcestartlinenumber=\"1\">Base class for variable evaluations and assignment-like commands.\nProvides storage for a variable name, an expression string and the evaluated result.\nInherits common parameter handling from <xref href=\"Booze_Project.AppCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppInt",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppInt.yml\" sourcestartlinenumber=\"1\">Application implementation for integer variable evaluation/assignment.\nInherits parsing and evaluation behaviour from <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> and\nupdates the containing program's integer variable store on successful evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Application implementation of the <code>moveto</code> command.\nReads two integer parameters (x, y) and instructs the configured canvas to move the pen to that location.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppParser",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppParser.yml\" sourcestartlinenumber=\"1\">Converts textual program source lines into concrete <xref href=\"Booze_Project.IAppCommand\" data-throw-if-not-resolved=\"false\"></xref> instances and registers them with an <xref href=\"Booze_Project.AppStoredProgram\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppPenColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppPenColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppPenColor",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppPenColor.yml\" sourcestartlinenumber=\"1\">Application implementation of a pen colour command.\nParses three integer parameters (red, green, blue) and applies them to the active canvas pen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppReal",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppReal.yml\" sourcestartlinenumber=\"1\">Application implementation for real (double) variable evaluation/assignment.\nInherits parsing and evaluation behaviour from <xref href=\"Booze_Project.AppEvaluation\" data-throw-if-not-resolved=\"false\"></xref> and stores the evaluated value as a <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppRect",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppRect.yml\" sourcestartlinenumber=\"1\">Application implementation of the <code>rect</code> command.\nValidates two integer parameters (width and height) and instructs the configured canvas to draw a rectangle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppStoredProgram",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppStoredProgram.yml\" sourcestartlinenumber=\"1\">In-memory representation of an executable application program.\nHolds an ordered list of <xref href=\"Booze_Project.AppCommand\" data-throw-if-not-resolved=\"false\"></xref> instances and provides execution, variable storage,\nexpression evaluation and conditional-linking helpers used by the parser and command implementations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.AppWrite",
+      "Summary": "<p sourcefile=\"api/Booze_Project.AppWrite.yml\" sourcestartlinenumber=\"1\">Implements the application-level <code>write</code> command.\nResolves tokens in the parameter list (variables or literals), evaluates the assembled expression,\nand writes the resulting text to the configured canvas via <code>Canvas.WriteText</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Append.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Append.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Append",
+      "Summary": "<p sourcefile=\"api/Booze_Project.Append.yml\" sourcestartlinenumber=\"1\">Represents the application-level <code>end</code> command that terminates a compound block.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Appif.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Appif.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Appif",
+      "Summary": "<p sourcefile=\"api/Booze_Project.Appif.yml\" sourcestartlinenumber=\"1\">Application implementation of the <code>if</code> compound command.\nEvaluates the conditional expression and, if the condition is false, advances the program counter to the command indexed by <xref href=\"Booze_Project.AppConditionalCommand.EndLineNum\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.ApplicationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.ApplicationConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.ApplicationConfiguration",
+      "Summary": "<p sourcefile=\"api/Booze_Project.ApplicationConfiguration.yml\" sourcestartlinenumber=\"1\">Bootstrap the application configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Appwhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Appwhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Appwhile",
+      "Summary": "<p sourcefile=\"api/Booze_Project.Appwhile.yml\" sourcestartlinenumber=\"1\">Application implementation of the <code>while</code> compound command.\nEvaluates a boolean expression each iteration and, when false, advances the program counter to the linked <code>end</code> command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Booze_UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Booze_UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Booze_UI",
+      "Summary": "<p sourcefile=\"api/Booze_Project.Booze_UI.yml\" sourcestartlinenumber=\"1\">Main Windows Forms UI for the BOOSE application.\nHosts the drawing canvas, command factory, parser and stored program, and exposes event handlers for user actions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.IAppCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.IAppCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.IAppCommand",
+      "Summary": "<p sourcefile=\"api/Booze_Project.IAppCommand.yml\" sourcestartlinenumber=\"1\">Defines the contract for application command objects.\nImplementations represent executable program statements that can be compiled, validated and executed within an <xref href=\"Booze_Project.AppStoredProgram\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.IAppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.IAppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.IAppCommandFactory",
+      "Summary": "<p sourcefile=\"api/Booze_Project.IAppCommandFactory.yml\" sourcestartlinenumber=\"1\">Defines a factory for creating application command instances.\nImplementations map textual command type names (as produced by the parser) to concrete <xref href=\"Booze_Project.IAppCommand\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.IAppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.IAppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.IAppParser",
+      "Summary": "<p sourcefile=\"api/Booze_Project.IAppParser.yml\" sourcestartlinenumber=\"1\">Defines the contract for a parser that converts textual program source into application command instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.IAppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.IAppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.IAppStoredProgram",
+      "Summary": "<p sourcefile=\"api/Booze_Project.IAppStoredProgram.yml\" sourcestartlinenumber=\"1\">Defines the runtime program container used by the application.\nProvides storage for commands, variables, conditional linking and expression evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Program",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Properties.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Properties.Resources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Properties.Resources",
+      "Summary": "<p sourcefile=\"api/Booze_Project.Properties.Resources.yml\" sourcestartlinenumber=\"1\">A strongly-typed resource class, for looking up localized strings, etc.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.Properties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project.Properties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booze_Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booze_Project.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booze_Project",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
